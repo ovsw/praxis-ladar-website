@@ -1,0 +1,35 @@
+.navbar-logo-container {
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.navbar-logo-container.is-empty {
+  width: 50px;
+  height: 50px;
+}
+
+.navbar-logo-container.is-absolute {
+  position: fixed;
+  left: 4.15vw;
+  top: 40px;
+  z-index: 100;
+  mix-blend-mode: difference;
+}
+
+@media screen and (min-width: 1920px) {
+  .navbar-logo-container.is-absolute {
+    left: 6vw;
+    top: 2.2vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-logo-container.is-absolute {
+    top: 25px;
+  }
+}
+
+.ladar-logo {
+  color: hsla(0, 0.00%, 100.00%, 1.00);
+}

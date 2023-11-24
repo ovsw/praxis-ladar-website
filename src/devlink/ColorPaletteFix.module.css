@@ -1,0 +1,47 @@
+.styleguide_grid-colours {
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.rl-styleguide_color {
+  padding-bottom: 8rem;
+}
+
+.is-black {
+  background-color: var(--black-dccb7db6);
+}
+
+.is-white {
+  background-color: var(--white-1766b841);
+}
+
+.is-gray {
+  background-color: var(--lightGrey-150a737e);
+}
+
+.rl-styleguide_color.is-brand-1 {
+  background-color: var(--primitives--brand-1);
+}
+
+.rl-styleguide_color.is-brand-2 {
+  background-color: var(--primitives--brand-2);
+}
+
+.rl-styleguide_label {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+
+  background-color: #0073e6;
+
+  color: var(--white-1766b841);
+  font-size: 0.75rem;
+  white-space: nowrap;
+
+  cursor: context-menu;
+}
+
+.rl-styleguide_label.is-html-tag {
+  background-color: #be4aa5;
+}
