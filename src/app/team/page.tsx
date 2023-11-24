@@ -2,7 +2,7 @@
 import { SectionTeamRoster, TeamRosterItem } from "@/devlink";
 import teamDataArray from "@/data/team";
 
-export default function Home() {
+export default function TeamPage() {
   const teamListMarkup = teamDataArray.map((teamMember, key) => {
     return (
       <TeamRosterItem

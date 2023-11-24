@@ -1,10 +1,10 @@
 import "@/devlink/global.css";
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Inter } from "next/font/google";
 // import "./globals.css";
 import {
   DevLinkProvider,
-  Navbar,
   Menu,
   GlobalStyles,
   MainLogo,
@@ -13,6 +13,7 @@ import {
 } from "@/devlink";
 
 import servicesArray from "@/data/services";
+import NavWrapper from "./components/NavWrapper";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -38,10 +39,11 @@ export default function RootLayout({
 
   return (
     <html lang="en">
+      <Script src="https://dr-flex.de/embed.js?medicalPracticeId=53337" />
       <body className={inter.className}>
         <DevLinkProvider>
           <MainLogo />
-          <Navbar />
+          <NavWrapper />
           <Menu />
           <GlobalStyles />
           <div className="main-wrapper">{children}</div>

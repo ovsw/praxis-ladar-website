@@ -163,7 +163,7 @@
   background-color: var(--primitives--gray-50);
 }
 
-.primary-button_background.is-header {
+.primary-button_background.is-cta {
   background-color: var(--theme--btn-1-bg);
 }
 

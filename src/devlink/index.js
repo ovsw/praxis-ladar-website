@@ -33,6 +33,7 @@ export * from "./SectionFullImage";
 export * from "./SectionHero";
 export * from "./SectionLayout3";
 export * from "./SectionPraxisteam";
+export * from "./SectionServiceRte";
 export * from "./SectionTeamRoster";
 export * from "./SectionTeamRosterCms";
 export * from "./SectionUberUns";
