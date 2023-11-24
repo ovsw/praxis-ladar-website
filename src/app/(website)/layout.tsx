@@ -12,7 +12,7 @@ import {
   FooterServiceLink,
 } from "@/devlink";
 
-import servicesArray from "@/data/services";
+import servicesArray from "@/app/(website)/data/services";
 import NavWrapper from "./components/NavWrapper";
 
 const inter = Inter({ subsets: ["latin"] });

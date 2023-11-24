@@ -1,4 +1,4 @@
-import servicesData from "@/data/services";
+import servicesData from "@/app/(website)/data/services";
 // import teamData from "@/data/team";
 
 export function getServicePage(slug: string) {

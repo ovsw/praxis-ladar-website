@@ -1,6 +1,6 @@
 // import Image from "next/image";
 import { SectionTeamRoster, TeamRosterItem } from "@/devlink";
-import teamDataArray from "@/data/team";
+import teamDataArray from "@/app/(website)/data/team";
 
 export default function TeamPage() {
   const teamListMarkup = teamDataArray.map((teamMember, key) => {

@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
-import { getServicePage } from "@/data/utils";
+import { getServicePage } from "@/app/(website)/data/utils";
 import { ButtonPrimary, SectionServiceRte } from "@/devlink";
-import ButtonRuntimeProps from "@/app/components/ButtonRuntimeProps";
+import ButtonRuntimeProps from "@/app/(website)/components/ButtonRuntimeProps";
 
 type Props = {
   params: { service: string };
