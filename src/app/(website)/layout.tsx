@@ -2,7 +2,6 @@ import "@/devlink/global.css";
 import type { Metadata } from "next";
 import Script from "next/script";
 import { Inter } from "next/font/google";
-// import "./globals.css";
 import {
   DevLinkProvider,
   Menu,
@@ -10,10 +9,11 @@ import {
   MainLogo,
   Footer,
   FooterServiceLink,
+  Navbar,
 } from "@/devlink";
 
 import servicesArray from "@/app/(website)/data/services";
-import NavWrapper from "./components/NavWrapper";
+import ButtonRuntimeProps from "./components/ButtonRuntimeProps";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -43,11 +43,14 @@ export default function RootLayout({
       <body className={inter.className}>
         <DevLinkProvider>
           <MainLogo />
-          <NavWrapper />
+          <Navbar ctaButton={<ButtonRuntimeProps cta={true} />} />
           <Menu />
           <GlobalStyles />
           <div className="main-wrapper">{children}</div>
-          <Footer servicesSlot={servicesListMarkup} />
+          <Footer
+            servicesSlot={servicesListMarkup}
+            ctaButtonSlot={<ButtonRuntimeProps cta={true} />}
+          />
         </DevLinkProvider>
       </body>
     </html>

@@ -54,7 +54,7 @@ export function Menu({ as: _Component = _Builtin.Block }) {
               className={_utils.cx(_styles, "menu-text")}
               tag="div"
             >
-              {"Schließen"}
+              {"Menü"}
             </_Builtin.Block>
             <_Builtin.Block
               className={_utils.cx(_styles, "top-menu-line")}

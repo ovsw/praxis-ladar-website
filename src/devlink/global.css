@@ -2185,23 +2185,23 @@ textarea.w-select {
   --black-dccb7db6: hsla(0, 0.00%, 0.00%, 1.00);
   --white-1766b841: hsla(0, 0.00%, 100.00%, 1.00);
   --lightGrey-150a737e: hsla(0, 0.00%, 95.69%, 1.00);
-  --primitives--gray-50: white;
-  --primitives--brand-1: #9d9482;
   --theme--text-dark-1: var(--primitives--gray-800);
-  --theme--btn-1-text: var(--primitives--gray-50);
-  --theme--btn-2-text: var(--primitives--brand-2);
-  --theme--btn-2-bg: var(--theme--text-dark-1);
-  --theme--btn-1-bg: var(--primitives--brand-1);
-  --theme--btn-2-shadow: var(--primitives--brand-1);
-  --theme--btn-1-shadow: var(--theme--text-dark-1);
   --primitives--gray-800: #424d54;
   --primitives--gray-600: #535454;
   --theme--bg-brand: var(--primitives--brand-2);
+  --primitives--brand-1: #9d9482;
   --theme--bg-light: var(--primitives--gray-50);
   --theme--text-light-1: var(--primitives--gray-50);
+  --theme--btn-2-text: var(--primitives--brand-2);
+  --theme--btn-1-text: var(--primitives--gray-50);
   --theme--bg-dark: var(--theme--text-dark-1);
   --theme--text-light-2: var(--primitives--gray-100);
   --primitives--gray-100: #f4f4f4;
+  --primitives--gray-50: white;
+  --theme--btn-2-shadow: var(--primitives--brand-1);
+  --theme--btn-1-shadow: var(--theme--text-dark-1);
+  --theme--btn-2-bg: var(--theme--text-dark-1);
+  --theme--btn-1-bg: var(--primitives--brand-1);
   --primitives--brand-2: #e8e4df;
 }
 

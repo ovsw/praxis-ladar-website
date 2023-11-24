@@ -5,7 +5,11 @@ import { FooterServiceLink } from "./FooterServiceLink";
 import * as _utils from "./utils";
 import _styles from "./Footer.module.css";
 
-export function Footer({ as: _Component = _Builtin.Section, servicesSlot }) {
+export function Footer({
+  as: _Component = _Builtin.Section,
+  servicesSlot,
+  ctaButtonSlot,
+}) {
   return (
     <_Component
       className={_utils.cx(_styles, "footer3_component")}
@@ -62,13 +66,17 @@ export function Footer({ as: _Component = _Builtin.Section, servicesSlot }) {
                 <_Builtin.Paragraph>
                   {"Zahnärztliche"}
                   <_Builtin.Strong> </_Builtin.Strong>
-                  {"Gemeinschaftspraxis Ladar Desiree & Emil"}
+                  {"Gemeinschaftspraxis"}
+                  <br />
+                  {"Ladar Desiree & Emil"}
                 </_Builtin.Paragraph>
                 <_Builtin.Block
                   className={_utils.cx(_styles, "spacer-xsmall")}
                   tag="div"
                 />
-                <CtaButton />
+                <_Builtin.Block tag="div">
+                  {ctaButtonSlot ?? <CtaButton />}
+                </_Builtin.Block>
                 <_Builtin.Block
                   className={_utils.cx(_styles, "spacer-medium")}
                   tag="div"

@@ -1,17 +1,21 @@
 "use client";
-import { ButtonPrimary } from "@/devlink";
+import { ButtonPrimary, CtaButton } from "@/devlink";
 import React from "react";
 
 type Props = {
-  params?: {
-    runtimeProps?: Array<Object>;
-    text?: string;
-    link?: { href: string };
-  };
+  cta?: boolean;
+  runtimeProps?: Array<Object>;
+  text?: string;
+  link?: { href: string };
 };
 
-export default function ButtonRuntimeProps({ params }: Props) {
-  const defaultRuntimeProp = {
+export default function ButtonRuntimeProps({
+  cta,
+  runtimeProps,
+  text,
+  link,
+}: Props) {
+  const defaultRuntimeProps = {
     onClick: (e: React.ChangeEvent<any>) => {
       e.preventDefault();
       // @ts-ignore
@@ -20,10 +24,20 @@ export default function ButtonRuntimeProps({ params }: Props) {
   };
 
   return (
-    <ButtonPrimary
-      text={params?.text ?? "Online Termin"}
-      link={{ href: params?.link?.href ?? "#" }}
-      runtimeProps={params?.runtimeProps ?? defaultRuntimeProp}
-    />
+    <>
+      {!cta ? (
+        <ButtonPrimary
+          text={text ?? "Online Termin"}
+          link={{ href: link?.href ?? "#" }}
+          runtimeProps={runtimeProps ?? defaultRuntimeProps}
+        />
+      ) : (
+        <CtaButton
+          text={text ?? "Online Termin"}
+          link={{ href: link?.href ?? "#" }}
+          runtimeProps={runtimeProps ?? defaultRuntimeProps}
+        />
+      )}
+    </>
   );
 }
