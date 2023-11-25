@@ -1,7 +1,7 @@
 import "@/devlink/global.css";
 import type { Metadata } from "next";
 import Script from "next/script";
-import { Inter } from "next/font/google";
+import { Poppins } from "next/font/google";
 import {
   DevLinkProvider,
   Menu,
@@ -15,7 +15,7 @@ import {
 import servicesArray from "@/app/(website)/data/services";
 import ButtonRuntimeProps from "@/app/(website)/components/ButtonRuntimeProps";
 
-const inter = Inter({ subsets: ["latin"] });
+const poppins = Poppins({ subsets: ["latin"], weight: ["400", "600", "700"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -40,7 +40,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Script src="https://dr-flex.de/embed.js?medicalPracticeId=53337" />
-      <body className={inter.className}>
+      <body className={poppins.className}>
         <DevLinkProvider>
           <MainLogo />
           <Navbar ctaButton={<ButtonRuntimeProps cta={true} />} />
