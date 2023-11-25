@@ -13,7 +13,7 @@ import {
 } from "@/devlink";
 
 import servicesArray from "@/app/(website)/data/services";
-import ButtonRuntimeProps from "./components/ButtonRuntimeProps";
+import ButtonRuntimeProps from "@/app/(website)/components/ButtonRuntimeProps";
 
 const inter = Inter({ subsets: ["latin"] });
 
