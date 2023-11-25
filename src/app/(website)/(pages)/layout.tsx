@@ -1,4 +1,5 @@
 import "@/devlink/global.css";
+import "@/app/(website)/assets/custom.css";
 import type { Metadata } from "next";
 import Script from "next/script";
 import { Poppins } from "next/font/google";
@@ -43,6 +44,7 @@ export default function RootLayout({
       <body className={poppins.className}>
         <DevLinkProvider>
           <MainLogo />
+
           <Navbar ctaButton={<ButtonRuntimeProps cta={true} />} />
           <Menu
             homeLink={{ href: "/" }}

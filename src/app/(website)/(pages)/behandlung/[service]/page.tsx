@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { getServicePage } from "@/app/(website)/data/utils";
-import { ButtonPrimary, SectionServiceRte } from "@/devlink";
+import { SectionLongContent } from "@/devlink";
 import ButtonRuntimeProps from "@/app/(website)/components/ButtonRuntimeProps";
 
 type Props = {
@@ -17,7 +17,7 @@ export default function ServicePage({ params }: Props) {
 
   return (
     <main>
-      <SectionServiceRte
+      <SectionLongContent
         headingText={page.Name}
         image={page["Main image"]}
         buttons={<ButtonRuntimeProps />}

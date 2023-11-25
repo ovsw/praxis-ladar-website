@@ -1,5 +1,12 @@
 // import Image from "next/image";
-import { SectionTeamRoster, TeamRosterItem } from "@/devlink";
+import {
+  BigHeader,
+  SectionFullImage,
+  SectionLayout3Reversed,
+  SectionPraxisteam,
+  SectionTeamRoster,
+  TeamRosterItem,
+} from "@/devlink";
 import teamDataArray from "@/app/(website)/data/team";
 
 export default function TeamPage() {
@@ -16,7 +23,11 @@ export default function TeamPage() {
 
   return (
     <main>
+      <BigHeader />
+      <SectionLayout3Reversed />
+      <SectionPraxisteam />
       <SectionTeamRoster teamListSlot={teamListMarkup} />
+      <SectionFullImage />
     </main>
   );
 }
