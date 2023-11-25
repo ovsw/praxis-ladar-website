@@ -44,7 +44,15 @@ export default function RootLayout({
         <DevLinkProvider>
           <MainLogo />
           <Navbar ctaButton={<ButtonRuntimeProps cta={true} />} />
-          <Menu />
+          <Menu
+            homeLink={{ href: "/" }}
+            ambienteLink={{ href: "/ambiente" }}
+            behandlungLink={{ href: "/behandlung" }}
+            uberUnsLink={{ href: "/uber-uns" }}
+            teamLink={{ href: "/team" }}
+            jobsLink={{ href: "/wir-suchen-dich" }}
+            kontaktLink={{ href: "/kontakt" }}
+          />
           <GlobalStyles />
           <div className="main-wrapper">{children}</div>
           <Footer
