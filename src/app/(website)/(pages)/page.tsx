@@ -24,7 +24,7 @@ export default function Home() {
   });
   return (
     <main>
-      <SectionHero />
+      <SectionHero buttonLink={{ href: "/uber-uns" }} />
       <CustomFeature1 />
       <SectionUberUns />
       <SectionAmbiente />
