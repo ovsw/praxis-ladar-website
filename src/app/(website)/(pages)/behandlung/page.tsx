@@ -1,5 +1,6 @@
-import { SectionBehandlung, BehandlungItemMobile } from "@/devlink";
 import React from "react";
+import { SectionBehandlung, BehandlungItemMobile } from "@/devlink";
+import servicesArray from "@/app/(website)/data/services";
 
 export default function ServicesPage() {
   const servicesListMarkup = servicesArray.map((service, key) => {
