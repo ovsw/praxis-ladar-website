@@ -1,5 +1,4 @@
-import Image from "next/image";
-// import styles from "./page.module.css";
+//import Image from "next/image";
 import {
   CustomFeature1,
   SectionAmbiente,
@@ -8,16 +7,28 @@ import {
   SectionPraxisteam,
   SectionUberUns,
   SectionFullImage,
+  BehandlungItemMobile,
 } from "@/devlink";
 
+import servicesArray from "@/app/(website)/data/services";
+
 export default function Home() {
+  const servicesListMarkup = servicesArray.map((service, key) => {
+    return (
+      <BehandlungItemMobile
+        key={key}
+        link={{ href: `/behandlung/${service.Slug}` }}
+        text={service.Name}
+      />
+    );
+  });
   return (
     <main>
       <SectionHero />
       <CustomFeature1 />
       <SectionUberUns />
       <SectionAmbiente />
-      <SectionBehandlung />
+      <SectionBehandlung listSlot={servicesListMarkup} />
       <SectionPraxisteam />
       <SectionFullImage />
     </main>
