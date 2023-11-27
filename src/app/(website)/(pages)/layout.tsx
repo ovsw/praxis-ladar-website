@@ -28,7 +28,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const servicesListMarkup = servicesArray.map((service, key) => {
+  const footerServicesListMarkup = servicesArray.map((service, key) => {
     return (
       <FooterServiceLink
         key={key}
@@ -43,7 +43,7 @@ export default function RootLayout({
       <Script src="https://dr-flex.de/embed.js?medicalPracticeId=53337" />
       <body className={poppins.className}>
         <DevLinkProvider>
-          <MainLogo />
+          <MainLogo link={{ href: "/" }} />
 
           <Navbar ctaButton={<ButtonRuntimeProps cta={true} />} />
           <Menu
@@ -58,7 +58,7 @@ export default function RootLayout({
           <GlobalStyles />
           <div className="main-wrapper">{children}</div>
           <Footer
-            servicesSlot={servicesListMarkup}
+            servicesSlot={footerServicesListMarkup}
             ctaButtonSlot={<ButtonRuntimeProps cta={true} />}
           />
         </DevLinkProvider>
