@@ -8,29 +8,30 @@ export const metadata: Metadata = {
     "Wir freuen uns über Ihr Interesse an unserer Zahnarztpraxis. Mit unserer Datenschutzerklärung zeigen wir Ihnen auf, welche Informationen beim Besuch unserer Internetseite erfasst und wie sie genutzt werden.",
 };
 
-const rteContent = `<h2>Datenschutzerklärung</h2>
+const rteContent = `<h2 class="heading-style-h4">Datenschutzerklärung</h2>
                     <p>Wir freuen uns über Ihr Interesse an unserer Zahnarztpraxis. Mit unserer Datenschutzerklärung zeigen wir Ihnen auf, welche Informationen beim Besuch unserer Internetseite erfasst und wie sie genutzt werden.</p>
                     <p>Da wir den Schutz Ihrer Daten ernst nehmen, weisen wir Sie darauf hin, dass bei der Übertragung von Daten im Internet Sicherheitslücken bestehen können, die einen Zugriff durch Dritte nie ganz ausschließen lassen. Wer daher den ganz sicheren Weg nehmen möchte, sollte uns vertrauliche Informationen per Post zukommen lassen.</p>
                     
-                    <h3>Name und Kontaktdaten des für die Verarbeitung Verantwortlichen sowie des betrieblichen Datenschutzbeauftragten</h3>
+                    <h3 class="heading-style-h6">Name und Kontaktdaten des für die Verarbeitung Verantwortlichen sowie des betrieblichen Datenschutzbeauftragten</h3>
                     <p>Diese Datenschutz-Information gilt für die Datenverarbeitung durch</p>
                     <address>
-                        <strong>Zahnärztliche GemeinschaftspraxisLadar Desiree & Emil</strong><br>
+                        <strong>Zahnärztliche Gemeinschaftspraxis Ladar Desiree & Emil</strong><br>
                         Hindenburgstrasse 2,<br>
-                        172250 Freudenstadt<br>
+                        72250 Freudenstadt<br>
                         (im folgenden Text „Praxis“ genannt)
                     </address>
+                    <br />
                     <p>Die betriebliche Datenschutzbeauftragte der Praxis ist unter den folgenden Kontaktdaten erreichbar:</p>
                     <address>
-                        <strong>Zahnärztliche GemeinschaftspraxisLadar Desiree & Emil</strong><br>
+                        <strong>Zahnärztliche Gemeinschaftspraxis Ladar Desiree & Emil</strong><br>
                         Datenschutzbeauftragte <br>
                         Emil Ladar<br>
                         Hindenburgstrasse 2,<br>
-                        172250 Freudenstadt<br>
+                        72250 Freudenstadt<br>
                         E-Mail Adresse: <a href="mailto:‍praxis-ladar@t-online.de">‍praxis-ladar@t-online.de</a><br>
                         (Im folgenden Text „Datenschutzbeauftragter“ genannt)
                     </address>
-                    <h3>Begriffsbestimmungen</h3>
+                    <h3 class="heading-style-h4">Begriffsbestimmungen</h3>
                     
                     <p>Die Datenschutzerklärung der Praxis beruht auf den Begrifflichkeiten, die durch den Europäischen Richtlinien- und Verordnungsgeber beim Erlass der Datenschutz-Grundverordnung (DSGVO) verwendet wurden. Unsere Datenschutzerklärung soll sowohl für die Öffentlichkeit als auch für unsere Kunden und Geschäftspartner einfach lesbar und verständlich sein. Um dies zu gewährleisten, möchten wir vorab die verwendeten Begrifflichkeiten erläutern.</p>
                     <p>Wir verwenden in dieser Datenschutzerklärung unter anderem die folgenden Begriffe:</p>
@@ -57,7 +58,7 @@ const rteContent = `<h2>Datenschutzerklärung</h2>
                         <li>Auswertung der Systemsicherheit und -stabilität sowie</li>
                         <li>zu weiteren administrativen Zwecken. Die Rechtsgrundlage für die Datenverarbeitung ist Art. 6 Abs. 1 S. 1 lit. f DSGVO. Unser berechtigtes Interesse folgt aus oben aufgelisteten Zwecken zur Datenerhebung. In keinem Fall verwenden wir die erhobenen Daten zu dem Zweck, Rückschlüsse auf Ihre Person zu ziehen. Darüber hinaus setzen wir beim Besuch unserer Website Cookies sowie Analysedienste ein. Nähere Erläuterungen dazu erhalten Sie unter den Ziff. 4 und 5 dieser Datenschutzerklärung.</li>
                     </ul>
-                    <h3>Weitergabe von Daten</h3>
+                    <h3 class="heading-style-h4">Weitergabe von Daten</h3>
                     
                     <p>Eine Übermittlung Ihrer persönlichen Daten an Dritte zu anderen als den im Folgenden aufgeführten Zwecken findet nicht statt. Wir geben Ihre persönlichen Daten nur an Dritte weiter, wenn:</p>
                     <ul>
@@ -66,11 +67,11 @@ const rteContent = `<h2>Datenschutzerklärung</h2>
                         <li>für den Fall, dass für die Weitergabe nach Art. 6 Abs. 1 S. 1 lit. c DSGVO eine gesetzliche Verpflichtung besteht, sowie</li>
                         <li>dies gesetzlich zulässig und nach Art. 6 Abs. 1 S. 1 lit. b DSGVO für die Abwicklung von Vertragsverhältnissen mit Ihnen erforderlich ist.</li>
                     </ul>
-                    <h3>Cookies</h3>
+                    <h3 class="heading-style-h4">Cookies</h3>
                     
                     <p>Wir setzen auf unserer Seite Cookies ein. Hierbei handelt es sich um kleine Dateien, die Ihr Browser automatisch erstellt und die auf Ihrem Endgerät (Laptop, Tablet, Smartphone o.ä.) gespeichert werden, wenn Sie unsere Seite besuchen. Cookies richten auf Ihrem Endgerät keinen Schaden an, enthalten keine Viren, Trojaner oder sonstige Schadsoftware. In dem Cookie werden Informationen abgelegt, die sich jeweils im Zusammenhang mit dem spezifisch eingesetzten Endgerät ergeben. Dies bedeutet jedoch nicht, dass wir dadurch unmittelbar Kenntnis von Ihrer Identität erhalten. Der Einsatz von Cookies dient einerseits dazu, die Nutzung unseres Angebots für Sie angenehmer zu gestalten. So setzen wir sogenannte Session-Cookies ein, um zu erkennen, dass Sie einzelne Seiten unserer Website bereits besucht haben. Diese werden nach Verlassen unserer Seite automatisch gelöscht. Darüber hinaus setzen wir ebenfalls zur Optimierung der Benutzerfreundlichkeit temporäre Cookies ein, die für einen bestimmten festgelegten Zeitraum auf Ihrem Endgerät gespeichert werden. Besuchen Sie unsere Seite erneut, um unsere Dienste in Anspruch zu nehmen, wird automatisch erkannt, dass Sie bereits bei uns waren und welche Eingaben und Einstellungen sie getätigt haben, um diese nicht noch einmal eingeben zu müssen. Zum anderen setzten wir Cookies ein, um die Nutzung unserer Website statistisch zu erfassen und zum Zwecke der Optimierung unseres Angebotes für Sie auszuwerten.</p>
                     <p>Diese Cookies ermöglichen es uns, bei einem erneuten Besuch unserer Seite automatisch zu erkennen, dass Sie bereits bei uns waren. Diese Cookies werden nach einer jeweils definierten Zeit automatisch gelöscht. Die durch Cookies verarbeiteten Daten sind für die genannten Zwecke zur Wahrung unserer berechtigten Interessen sowie der Dritter nach Art. 6 Abs. 1 S. 1 lit. f DSGVO erforderlich. Die meisten Browser akzeptieren Cookies automatisch. Sie können Ihren Browser jedoch so konfigurieren, dass keine Cookies auf Ihrem Computer gespeichert werden oder stets ein Hinweis erscheint, bevor ein neuer Cookie angelegt wird. Die vollständige Deaktivierung von Cookies kann jedoch dazu führen, dass Sie nicht alle Funktionen unserer Website nutzen können.</p>
-                    <h3>Analyse-Tools</h3>
+                    <h3 class="heading-style-h4">Analyse-Tools</h3>
                     
                     <p>Die im Folgenden aufgeführten und von uns eingesetzten Tracking-Maßnahmen werden auf Grundlage des Art. 6 Abs. 1 S. 1 lit. f DSGVO durchgeführt. Mit den zum Einsatz kommenden Tracking-Maßnahmen wollen wir eine bedarfsgerechte Gestaltung und die fortlaufende Optimierung unserer Webseite sicherstellen. Zum anderen setzen wir die Tracking-Maßnahmen ein, um die Nutzung unserer Webseite statistisch zu erfassen und zum Zwecke der Optimierung unseres Angebotes für Sie auszuwerten. Diese Interessen sind als berechtigt im Sinne der vorgenannten Vorschrift anzusehen. Die jeweiligen Datenverarbeitungszwecke und Datenkategorien sind aus den entsprechenden Tracking-Tools zu entnehmen.</p>
                     <h4>Google Adwords Conversion</h4>
@@ -112,7 +113,7 @@ const rteContent = `<h2>Datenschutzerklärung</h2>
                         bzw. <a href="https://www.google.de/intl/de/policies/" target="_blank" rel="nofollow">https://www.google.de/intl/de/policies/</a> und
                         <a href="https://tools.google.com/dlpage/gaoptout?hl=de" target="_blank" rel="nofollow">https://tools.google.com/dlpage/gaoptout?hl=de</a>
                     </p>
-                    <h3>Rechte der betroffenen Personen</h3>
+                    <h3 class="heading-style-h4">Rechte der betroffenen Personen</h3>
                     
                     <p>Jede betroffene Person hat das vom Europäischen Richtlinien- und Verordnungsgeber eingeräumte Recht, von dem für die Verarbeitung Verantwortlichen eine Bestätigung darüber zu verlangen, ob sie betreffende personenbezogene Daten verarbeitet werden. Möchte eine betroffene Person dieses Bestätigungsrecht in Anspruch nehmen, kann sie sich hierzu jederzeit an unseren Datenschutzbeauftragten oder einen anderen Mitarbeiter des für die Verarbeitung Verantwortlichen wenden.</p>
                     <p>Jede von der Verarbeitung personenbezogener Daten betroffene Person hat das vom Europäischen Richtlinien- und Verordnungsgeber gewährte Recht, jederzeit von dem für die Verarbeitung Verantwortlichen unentgeltliche Auskunft über die zu seiner Person gespeicherten personenbezogenen Daten und eine Kopie dieser Auskunft zu erhalten. Ferner hat der Europäische Richtlinien- und Verordnungsgeber der betroffenen Person Auskunft über folgende Informationen zugestanden:</p>
@@ -178,10 +179,10 @@ const rteContent = `<h2>Datenschutzerklärung</h2>
                         Königinstr. 10 a<br>
                         70173 Stuttgart
                     </address>
-                    <h3>Rechtsgrundlage der Verarbeitung</h3>
+                    <h3 class="heading-style-h4">Rechtsgrundlage der Verarbeitung</h3>
                     
                     <p>Art.&nbsp;6 Abs.&nbsp;1 Buchst.&nbsp;a) DSGVO dient unserem Unternehmen als Rechtsgrundlage für Verarbeitungsvorgänge, bei denen wir eine Einwilligung für einen bestimmten Verarbeitungszweck einholen. Ist die Verarbeitung personenbezogener Daten zur Erfüllung eines Vertrags, dessen Vertragspartei die betroffene Person ist, erforderlich, wie dies beispielsweise bei Verarbeitungsvorgängen der Fall ist, die für eine Lieferung von Waren oder die Erbringung einer sonstigen Leistung oder Gegenleistung notwendig sind, so beruht die Verarbeitung auf Art.&nbsp;6 Abs.&nbsp;1 Buchst.&nbsp;b) DSGVO. Gleiches gilt für solche Verarbeitungsvorgänge, die zur Durchführung vorvertraglicher Maßnahmen erforderlich sind, etwa in Fällen von Anfragen zur unseren Produkten oder Leistungen. Unterliegt unser Unternehmen einer rechtlichen Verpflichtung, durch welche eine Verarbeitung von personenbezogenen Daten erforderlich wird, wie beispielsweise zur Erfüllung steuerlicher Pflichten, so basiert die Verarbeitung auf Art.&nbsp;6 Abs.&nbsp;1 Buchst.&nbsp;c) DSGVO. In seltenen Fällen könnte die Verarbeitung von personenbezogenen Daten erforderlich werden, um lebenswichtige Interessen der betroffenen Person oder einer anderen natürlichen Person zu schützen. Dies wäre beispielsweise der Fall, wenn ein Besucher in unserem Betrieb verletzt werden würde und daraufhin sein Name, sein Alter, seine Krankenkassendaten oder sonstige lebenswichtige Informationen an einen Arzt, ein Krankenhaus oder sonstige Dritte weitergegeben werden müssten. Dann würde die Verarbeitung auf Art.&nbsp;6 Abs.&nbsp;1 Buchst.&nbsp;d) DSGVO beruhen. Letztlich könnten Verarbeitungsvorgänge auf Art.&nbsp;6 Abs.&nbsp;1 Buchst.&nbsp;f) DSGVO beruhen. Auf dieser Rechtsgrundlage basieren Verarbeitungsvorgänge, die von keiner der vorgenannten Rechtsgrundlagen erfasst werden, wenn die Verarbeitung zur Wahrung eines berechtigten Interesses unseres Unternehmens oder eines Dritten erforderlich ist, sofern die Interessen, Grundrechte und Grundfreiheiten des Betroffenen nicht überwiegen. Solche Verarbeitungsvorgänge sind uns insbesondere deshalb gestattet, weil sie durch den Europäischen Gesetzgeber besonders erwähnt wurden. Er vertrat insoweit die Auffassung, dass ein berechtigtes Interesse anzunehmen sein könnte, wenn die betroffene Person ein Kunde des Verantwortlichen ist (Erwägungsgrund&nbsp;47 Satz&nbsp;2 DSGVO).</p>
-                    <h3>Berechtigte Interessen an der Verarbeitung, die von dem Verantwortlichen oder einem Dritten verfolgt werden</h3>
+                    <h3 class="heading-style-h4">Berechtigte Interessen an der Verarbeitung, die von dem Verantwortlichen oder einem Dritten verfolgt werden</h3>
                     
                     <p>Basiert die Verarbeitung personenbezogener Daten auf Art.&nbsp;6 Abs.&nbsp;1 Buchst.&nbsp;f) DSGVO, ist unser berechtigtes Interesse die Durchführung unserer Geschäftstätigkeit zugunsten des Wohlergehens all unserer Mitarbeiter und unserer Anteilseigner.</p>
                     <p><strong>XII. Die Verantwortliche bzw. Ihre Ansprechpartnerin</strong></p>
