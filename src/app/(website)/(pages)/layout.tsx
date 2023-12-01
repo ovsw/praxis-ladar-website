@@ -47,6 +47,7 @@ export default function RootLayout({
 
           <Navbar ctaButton={<ButtonRuntimeProps cta={true} />} />
           <Menu
+            logoLink={{ href: "/" }}
             homeLink={{ href: "/" }}
             ambienteLink={{ href: "/ambiente" }}
             behandlungLink={{ href: "/behandlung" }}
