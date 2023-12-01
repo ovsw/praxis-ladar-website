@@ -15,21 +15,19 @@ const rteContent = `<h2>Datenschutzerklärung</h2>
                     <h3>Name und Kontaktdaten des für die Verarbeitung Verantwortlichen sowie des betrieblichen Datenschutzbeauftragten</h3>
                     <p>Diese Datenschutz-Information gilt für die Datenverarbeitung durch</p>
                     <address>
-                        <strong>Berger Dental</strong><br>
-                        Moderne Zahnheilkunde<br>
-                        Bahnhofstraße 5<br>
-                        71672 Marbach am Neckar<br>
+                        <strong>Zahnärztliche GemeinschaftspraxisLadar Desiree & Emil</strong><br>
+                        Hindenburgstrasse 2,<br>
+                        172250 Freudenstadt<br>
                         (im folgenden Text „Praxis“ genannt)
                     </address>
                     <p>Die betriebliche Datenschutzbeauftragte der Praxis ist unter den folgenden Kontaktdaten erreichbar:</p>
                     <address>
-                        <strong>Berger Dental</strong><br>
-                        Moderne Zahnheilkunde<br>
+                        <strong>Zahnärztliche GemeinschaftspraxisLadar Desiree & Emil</strong><br>
                         Datenschutzbeauftragte <br>
-                        Kathrin Schraud<br>
-                        Bahnhofstraße 5<br>
-                        71672 Marbach am Neckar<br>
-                        E-Mail Adresse: <a href="mailto:datenschutz@bergerdental.de">datenschutz@bergerdental.de</a><br>
+                        Emil Ladar<br>
+                        Hindenburgstrasse 2,<br>
+                        172250 Freudenstadt<br>
+                        E-Mail Adresse: <a href="mailto:‍praxis-ladar@t-online.de">‍praxis-ladar@t-online.de</a><br>
                         (Im folgenden Text „Datenschutzbeauftragter“ genannt)
                     </address>
                     <h3>Begriffsbestimmungen</h3>
