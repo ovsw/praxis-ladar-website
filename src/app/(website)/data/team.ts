@@ -172,22 +172,6 @@ const team = [
     "Job Title": "Zahnmedizinische Prophylaxeassistentin, Rezeption",
     Order: 40,
   },
-  {
-    Name: "Roxana Pascut",
-    Slug: "roxana-pascut",
-    "Collection ID": "655763d7bb2251ae9b54286c",
-    "Locale ID": "655763d7bb2251ae9b542865",
-    "Item ID": "655763d7bb2251ae9b542917",
-    "Created On":
-      "Tue Nov 07 2023 04:06:50 GMT+0000 (Coordinated Universal Time)",
-    "Updated On":
-      "Tue Nov 07 2023 04:10:00 GMT+0000 (Coordinated Universal Time)",
-    "Published On": "",
-    "Profile Picture":
-      "https://uploads-ssl.webflow.com/6549b7806c6e9d271a6c0e91/6549b7daab47d9fe374c90c1_65099f67ee467ab3c2568414_3L9A3148---Roxana-Pascut.jpeg",
-    "Job Title": "Zahnmedizinische Fachangestellte",
-    Order: 50,
-  },
 ];
 
 export default team;
