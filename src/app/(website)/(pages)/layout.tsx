@@ -12,6 +12,10 @@ import {
   FooterServiceLink,
   Navbar,
 } from "@/devlink";
+import {
+  LinkRenderer,
+  ImageRenderer,
+} from "@/app/(website)/components/renderers";
 
 import servicesArray from "@/app/(website)/data/services";
 import ButtonRuntimeProps from "@/app/(website)/components/ButtonRuntimeProps";
@@ -42,7 +46,7 @@ export default function RootLayout({
     <html lang="en">
       <Script src="https://dr-flex.de/embed.js?medicalPracticeId=53337" />
       <body className={poppins.className}>
-        <DevLinkProvider>
+        <DevLinkProvider renderLink={LinkRenderer}>
           <MainLogo link={{ href: "/" }} />
 
           <Navbar ctaButton={<ButtonRuntimeProps cta={true} />} />
