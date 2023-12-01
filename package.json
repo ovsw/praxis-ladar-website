@@ -10,7 +10,9 @@
     "serve": "next build && next start"
   },
   "dependencies": {
+    "@palmabit/react-cookie-law": "^0.7.0",
     "@webflow/webflow-cli": "^1.6.4",
+    "client-only": "^0.0.1",
     "next": "14.0.1",
     "next-sanity": "^5.5.10",
     "react": "^18",
@@ -18,6 +20,7 @@
     "sanity": "^3.19.1"
   },
   "devDependencies": {
+    "@types/gtag.js": "^0.0.18",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

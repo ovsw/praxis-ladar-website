@@ -12,6 +12,7 @@ import {
   FooterServiceLink,
   Navbar,
 } from "@/devlink";
+import GoogleAnalytics from "@/app/(website)/components/GoogleAnalytics";
 import {
   LinkRenderer,
   ImageRenderer,
@@ -43,9 +44,15 @@ export default function RootLayout({
   });
 
   return (
-    <html lang="en">
+    <html lang="de">
+      {/* GA */}
+      <GoogleAnalytics GA_MEASUREMENT_ID="G-YNSFED1YS1" />
+
+      {/* Dr. Flex Online Booking External Service Widget */}
       <Script src="https://dr-flex.de/embed.js?medicalPracticeId=53337" />
+
       <body className={poppins.className}>
+        {/* Webflow Devlink Wrapper, with renderer for Links */}
         <DevLinkProvider renderLink={LinkRenderer}>
           <MainLogo link={{ href: "/" }} />
 
