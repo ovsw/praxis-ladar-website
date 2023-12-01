@@ -8,6 +8,7 @@ import React from "react";
 export default function JobsPage() {
   return (
     <>
+      <div className="spacer-medium" />
       <SectionLongContent
         eyebrowText="Wir"
         headingText="Suchen Dich"
