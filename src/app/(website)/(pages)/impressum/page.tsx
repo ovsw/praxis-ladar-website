@@ -1,5 +1,12 @@
 import { SectionLongContent, SlideshowStaff } from "@/devlink";
 import React from "react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Impressum | Praxis Ladar",
+  description:
+    "Zuständige Aufsichtsbehörde:Bezirkszahnärztkammer KarlsruheHindenburgstraße 268167 Mannheim.",
+};
 
 export default function Impressum() {
   return (

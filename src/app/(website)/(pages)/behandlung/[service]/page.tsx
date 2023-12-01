@@ -3,6 +3,13 @@ import { getServicePage } from "@/app/(website)/data/utils";
 import { SectionLongContent } from "@/devlink";
 import ButtonRuntimeProps from "@/app/(website)/components/ButtonRuntimeProps";
 import servicesData from "@/app/(website)/data/services";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Behandlung | Praxis Ladar",
+  description:
+    "In unserer Zahnarztpraxis setzen wir auf hochmoderne Technologie, um Ihr Wohlbefinden und Ihre Zahngesundheit zu fördern. Bei uns erwartet Sie eine zeitgemäße Zahnmedizin für ein strahlendes Lächeln und eine sorgenfreie Behandlung.",
+};
 
 type Props = {
   params: { service: string };

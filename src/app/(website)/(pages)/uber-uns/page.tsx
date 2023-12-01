@@ -12,6 +12,14 @@ import {
 } from "@/devlink";
 import React from "react";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Über uns | Praxis Ladar",
+  description:
+    "Jeder Patient liegt uns am Herzen. Neben fachlicher Kompetenz werden Sie bei uns ein herzliches Team vorfinden, bei dem Sie sich rundum wohlfühlen können.",
+};
+
 export default function UberUnsPage() {
   return (
     <>

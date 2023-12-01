@@ -4,6 +4,13 @@ import {
   SlideshowStaff,
 } from "@/devlink";
 import React from "react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Jobs | Praxis Ladar",
+  description:
+    "Stellenbeschreibung: Zahnmedizinische Fachangestellte (m/w/d) für die Stuhlassistenz Auszubildende (m/w/d) zur Zahnmedizinischen Fachangestellten. Quer- und Wiedereinsteiger sind willkommen!",
+};
 
 export default function JobsPage() {
   return (
