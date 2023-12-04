@@ -12,7 +12,7 @@ import {
   FooterServiceLink,
   Navbar,
 } from "@/devlink";
-import GoogleAnalytics from "@/app/(website)/components/GoogleAnalytics";
+// import GoogleAnalytics from "@/app/(website)/components/GoogleAnalytics";
 import {
   LinkRenderer,
   ImageRenderer,
@@ -20,6 +20,8 @@ import {
 
 import servicesArray from "@/app/(website)/data/services";
 import ButtonRuntimeProps from "@/app/(website)/components/ButtonRuntimeProps";
+// import CookieConsent from "@/app/(website)/components/CookieConsent";
+import GTMComponent from "@/app/(website)/components/GtmComponent";
 
 const poppins = Poppins({ subsets: ["latin"], weight: ["400", "600", "700"] });
 
@@ -45,9 +47,6 @@ export default function RootLayout({
 
   return (
     <html lang="de">
-      {/* GA */}
-      <GoogleAnalytics GA_MEASUREMENT_ID="G-YNSFED1YS1" />
-
       {/* Dr. Flex Online Booking External Service Widget */}
       <Script src="https://dr-flex.de/embed.js?medicalPracticeId=53337" />
 
@@ -74,6 +73,7 @@ export default function RootLayout({
             ctaButtonSlot={<ButtonRuntimeProps cta={true} />}
           />
         </DevLinkProvider>
+        <GTMComponent />
       </body>
     </html>
   );
