@@ -13,10 +13,10 @@ import {
   Navbar,
 } from "@/devlink";
 // import GoogleAnalytics from "@/app/(website)/components/GoogleAnalytics";
-// import {
-//   LinkRenderer,
-//   ImageRenderer,
-// } from "@/app/(website)/components/renderers";
+import {
+  LinkRenderer,
+  ImageRenderer,
+} from "@/app/(website)/components/renderers";
 
 import servicesArray from "@/app/(website)/data/services";
 import ButtonRuntimeProps from "@/app/(website)/components/ButtonRuntimeProps";
@@ -52,7 +52,7 @@ export default function RootLayout({
 
       <body className={poppins.className}>
         {/* Webflow Devlink Wrapper, with renderer for Links */}
-        <DevLinkProvider>
+        <DevLinkProvider renderLink={LinkRenderer}>
           <MainLogo link={{ href: "/" }} />
 
           <Navbar ctaButton={<ButtonRuntimeProps cta={true} />} />
