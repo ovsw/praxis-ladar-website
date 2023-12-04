@@ -3,7 +3,7 @@
 import { usePathname, useSearchParams } from "next/navigation";
 import { useEffect } from "react";
 import { getCookie } from "cookies-next";
-// import { pageview } from "../lib/gtm";
+import { pageview } from "../lib/gtm";
 import Script from "next/script";
 
 // declare datalayer type
@@ -19,9 +19,9 @@ export default function GTMComponent() {
 
   useEffect(() => {
     // send pageview event to GTM
-    // if (pathname) {
-    //   pageview(pathname);
-    // }
+    if (pathname) {
+      pageview(pathname);
+    }
 
     // Function to load GTM dynamically
     const loadGTM = () => {
