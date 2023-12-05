@@ -61,7 +61,7 @@ export default function RootLayout({
       <GtmComponent />
       <body className={poppins.className}>
         {/* Webflow Devlink Wrapper, with renderer for Links */}
-        <DevLinkProvider renderLink={LinkRenderer}>
+        <DevLinkProvider>
           <MainLogo link={{ href: "/" }} />
 
           <Navbar ctaButton={<ButtonRuntimeProps cta={true} />} />
