@@ -11,6 +11,7 @@ import {
   Footer,
   FooterServiceLink,
   Navbar,
+  CookieConsentBanner,
 } from "@/devlink";
 // import GoogleAnalytics from "@/app/(website)/components/GoogleAnalytics";
 import {
@@ -20,8 +21,8 @@ import {
 
 import servicesArray from "@/app/(website)/data/services";
 import ButtonRuntimeProps from "@/app/(website)/components/ButtonRuntimeProps";
-// import CookieConsent from "@/app/(website)/components/CookieConsent";
-import GTMComponent from "@/app/(website)/components/GtmComponent";
+import CookieConsent from "@/app/(website)/components/CookieConsent";
+import GtmComponent from "@/app/(website)/components/GtmComponent";
 
 const poppins = Poppins({ subsets: ["latin"], weight: ["400", "600", "700"] });
 
@@ -49,7 +50,15 @@ export default function RootLayout({
     <html lang="de">
       {/* Dr. Flex Online Booking External Service Widget */}
       <Script src="https://dr-flex.de/embed.js?medicalPracticeId=53337" />
+      <Script id="gtm-script" strategy="afterInteractive">{`
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer', "GTM-NBKK3XQX");
+      `}</Script>
 
+      <GtmComponent />
       <body className={poppins.className}>
         {/* Webflow Devlink Wrapper, with renderer for Links */}
         <DevLinkProvider renderLink={LinkRenderer}>
@@ -72,8 +81,8 @@ export default function RootLayout({
             servicesSlot={footerServicesListMarkup}
             ctaButtonSlot={<ButtonRuntimeProps cta={true} />}
           />
+          <CookieConsent />
         </DevLinkProvider>
-        <GTMComponent />
       </body>
     </html>
   );
