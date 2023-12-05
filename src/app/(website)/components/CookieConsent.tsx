@@ -17,7 +17,7 @@ export default function CookieConsentCustom() {
     // When user accepts consent, hide the popup and set a consent cookie
     setShowConsent(false);
     setCookie("consent", "true");
-    alert("accepted");
+    // alert("accepted");
 
     // Trigger GTM script load
     if (typeof window !== "undefined") {

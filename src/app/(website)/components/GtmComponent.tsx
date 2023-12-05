@@ -25,7 +25,7 @@ export default function GTMComponent() {
 
     // Function to load GTM dynamically
     const loadGTM = () => {
-      alert("loading GTM!");
+      // alert("loading GTM!");
       const script = document.createElement("script");
       <Script
         id="gtm-script"
