@@ -37,6 +37,7 @@ export default function CookieConsentCustom() {
 
   return (
     <CookieConsentBanner
+      link={{ href: "/datenschutz" }}
       acceptBtn={{
         onClick: acceptConsent,
       }}
