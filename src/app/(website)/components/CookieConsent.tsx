@@ -8,7 +8,7 @@ export default function CookieConsentCustom() {
 
   useEffect(() => {
     // If no consent cookie is present, show the consent popup
-    if (!hasCookie("oviConsent")) {
+    if (!hasCookie("consent")) {
       setShowConsent(true);
     }
   }, []);
@@ -16,7 +16,7 @@ export default function CookieConsentCustom() {
   const acceptConsent = () => {
     // When user accepts consent, hide the popup and set a consent cookie
     setShowConsent(false);
-    setCookie("oviConsent", "true");
+    setCookie("consent", "true");
     alert("accepted");
 
     // Trigger GTM script load
@@ -27,7 +27,7 @@ export default function CookieConsentCustom() {
   const declineConsent = () => {
     // When user declines the consent, simply hide the popup
     setShowConsent(false);
-    // setCookie("oviConsent", "false");
+    // setCookie("consent", "false");
   };
 
   if (!showConsent) {

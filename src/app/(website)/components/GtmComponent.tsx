@@ -19,40 +19,29 @@ export default function GTMComponent() {
 
   useEffect(() => {
     // send pageview event to GTM
-    // if (pathname) {
-    //   pageview(pathname);
-    // }
+    if (pathname) {
+      pageview(pathname);
+    }
 
     // Function to load GTM dynamically
-    // const loadGTM = () => {
-    // const script = document.createElement("script");
-    // script.innerHTML = `
-    //   (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    //   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    //   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    //   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    //   })(window,document,'script','dataLayer', "GTM-NBKK3XQX");
-    // `;
-    // <Script
-    //   id="gtm-script"
-    //   strategy="afterInteractive"
-    //   dangerouslySetInnerHTML={{
-    //     __html: (script.innerHTML = `
-    //   (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    //   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    //   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    //   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    //   })(window,document,'script','dataLayer', "GTM-NBKK3XQX");
-    // `),
-    //   }}
-    // />;
-
-    // document.head.appendChild(script);
-
-    // };
-
-    // Load GTM immediately
-    // loadGTM();
+    const loadGTM = () => {
+      alert("loading GTM!");
+      const script = document.createElement("script");
+      <Script
+        id="gtm-script"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: (script.innerHTML = `
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer', "GTM-NBKK3XQX");
+      `),
+        }}
+      />;
+      document.body.appendChild(script);
+    };
 
     window.dataLayer = window.dataLayer || [];
     function gtag(...args: any[]) {
@@ -60,7 +49,7 @@ export default function GTMComponent() {
     }
 
     // Check if consent cookie exists
-    const consentGiven = getCookie("oviConsent");
+    const consentGiven = getCookie("consent");
 
     // If the consent cookie exists and is set to 'true', grant permissions
     if (consentGiven === "true") {
@@ -82,10 +71,12 @@ export default function GTMComponent() {
       });
     }
 
+    // Load GTM immediately
+    loadGTM();
+
     // Listen for the loadGTM event
     window.addEventListener("updateGTMConsent", () => {
       if (typeof window.dataLayer !== "undefined") {
-        alert("updateGTMConsent");
         gtag("consent", "update", {
           ad_storage: "granted", // Example consent type
           analytics_storage: "granted", // Another example consent type
