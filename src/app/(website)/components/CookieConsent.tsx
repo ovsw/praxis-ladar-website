@@ -8,7 +8,7 @@ export default function CookieConsentCustom() {
 
   useEffect(() => {
     // If no consent cookie is present, show the consent popup
-    if (!hasCookie("consent")) {
+    if (!hasCookie("GA4_Consent")) {
       setShowConsent(true);
     }
   }, []);
@@ -16,7 +16,7 @@ export default function CookieConsentCustom() {
   const acceptConsent = () => {
     // When user accepts consent, hide the popup and set a consent cookie
     setShowConsent(false);
-    setCookie("consent", "true");
+    setCookie("GA4_Consent", "true");
     // alert("accepted");  // debug
 
     // Trigger GTM script load
@@ -26,6 +26,7 @@ export default function CookieConsentCustom() {
   };
   const declineConsent = () => {
     // When user declines the consent, simply hide the popup
+    setCookie("GA4_Consent", "false");
     setShowConsent(false);
     // setCookie("consent", "false");
   };

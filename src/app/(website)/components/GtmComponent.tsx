@@ -1,12 +1,10 @@
 // create a client component
 "use client";
 import { usePathname, useSearchParams } from "next/navigation";
+import { useEffect } from "react";
 import { getCookie } from "cookies-next";
 import { pageview } from "../lib/gtm";
 import Script from "next/script";
-import { setCookie, hasCookie } from "cookies-next";
-import { useState, useEffect } from "react";
-import { CookieConsentBanner } from "@/devlink";
 
 // declare datalayer type
 declare global {
@@ -18,7 +16,6 @@ declare global {
 export default function GTMComponent() {
   const pathname = usePathname();
   const searchParams = useSearchParams();
-  const [showConsent, setShowConsent] = useState(false);
 
   useEffect(() => {
     // send pageview event to GTM
@@ -52,11 +49,10 @@ export default function GTMComponent() {
     }
 
     // Check if consent cookie exists
-    const consentGiven = getCookie("GA4_Consent_Given");
+    const consentGiven = getCookie("consent");
 
     // If the consent cookie exists and is set to 'true', grant permissions
     if (consentGiven === "true") {
-      console.log("consent given! enable all cookies");
       gtag("consent", "update", {
         ad_storage: "granted",
         analytics_storage: "granted",
@@ -65,7 +61,6 @@ export default function GTMComponent() {
         security_storage: "granted",
       });
     } else {
-      console.log("consent cookie not found!");
       // Set default settings to 'denied' if no consent cookie is found
       gtag("consent", "default", {
         ad_storage: "denied",
@@ -78,51 +73,38 @@ export default function GTMComponent() {
 
     // Load GTM immediately
     loadGTM();
+
+    // Listen for the loadGTM event
+    window.addEventListener("updateGTMConsent", () => {
+      if (typeof window.dataLayer !== "undefined") {
+        gtag("consent", "update", {
+          ad_storage: "granted", // Example consent type
+          analytics_storage: "granted", // Another example consent type
+          functionality_storage: "granted",
+          personalization_storage: "granted",
+          security_storage: "granted",
+        });
+        window.dataLayer.push({
+          event: "cookie_consent_given",
+        });
+      }
+    });
   }, [pathname, searchParams]);
 
-  const acceptConsent = () => {
-    // When user accepts consent, hide the popup and set a consent cookie
-    setShowConsent(false);
-    setCookie("GA4_Consent_Given", "true");
-    // alert("accepted");  // debug
-
-    // update consent settings in GTM
-    if (typeof window.dataLayer !== "undefined") {
-      gtag("consent", "update", {
-        ad_storage: "granted", // Example consent type
-        analytics_storage: "granted", // Another example consent type
-        functionality_storage: "granted",
-        personalization_storage: "granted",
-        security_storage: "granted",
-      });
-      window.dataLayer.push({
-        event: "cookie_consent_given",
-      });
-    }
-  };
-  const declineConsent = () => {
-    // When user declines the consent, hide the popup and set the consent cookie so it doesn't ask again
-    console.log("consent not given! no cookies allowed");
-    setCookie("GA4_Consent_Given", "false");
-    setShowConsent(false);
-  };
-
-  // if (process.env.NEXT_PUBLIC_VERCEL_ENV !== "production") {
-  //   return null;
-  // }
-
-  if (!showConsent) {
+  if (process.env.NEXT_PUBLIC_VERCEL_ENV !== "production") {
     return null;
   }
 
   return (
-    <CookieConsentBanner
-      acceptBtn={{
-        onClick: acceptConsent,
-      }}
-      denyBtn={{
-        onClick: declineConsent,
-      }}
-    />
+    <>
+      {/* <noscript>
+        <iframe
+          src={`https://www.googletagmanager.com/ns.html?id=GTM-NBKK3XQX`}
+          height="0"
+          width="0"
+          style={{ display: "none", visibility: "hidden" }}
+        />
+      </noscript> */}
+    </>
   );
 }
