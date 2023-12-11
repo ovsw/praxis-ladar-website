@@ -1,10 +1,12 @@
 import { createClient, groq } from "next-sanity";
+import { StaffMember } from "../types/StaffMember";
+import { Service } from "../types/Service";
 
 const projectId = process.env.NEXT_PUBLIC_SANITY_STUDIO_PROJECT_ID;
 const dataset = process.env.NEXT_PUBLIC_SANITY_STUDIO_DATASET || "production";
 const apiVersion = process.env.NEXT_PUBLIC_SANITY_STUDIO_API_VERSION;
 
-export async function getStaffMembers() {
+export async function getStaffMembers(): Promise<StaffMember[]> {
   const client = createClient({
     projectId,
     dataset,
@@ -20,10 +22,10 @@ export async function getStaffMembers() {
       jobtitle,
       "image": image.asset->url,
       wfImage,
-    }`
+    } | order(order asc)`
   );
 }
-export async function getService() {
+export async function getService(): Promise<Service[]> {
   const client = createClient({
     projectId,
     dataset,
@@ -41,6 +43,6 @@ export async function getService() {
       "image": image.asset->url,
       wfImage,
       content,
-    }`
+    } | order(order asc)`
   );
 }

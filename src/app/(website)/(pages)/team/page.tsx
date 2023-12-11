@@ -10,6 +10,7 @@ import {
 import teamDataArray from "@/app/(website)/_data/team";
 
 import type { Metadata } from "next";
+import SectionTeamRoster_W from "../../_components/wfWrappers/SectionTeamRoster_W";
 
 export const metadata: Metadata = {
   title: "Team | Praxis Ladar",
@@ -18,23 +19,24 @@ export const metadata: Metadata = {
 };
 
 export default function TeamPage() {
-  const teamListMarkup = teamDataArray.map((teamMember, key) => {
-    return (
-      <TeamRosterItem
-        key={key}
-        name={teamMember.Name}
-        role={teamMember["Job Title"]}
-        image={teamMember["Profile Picture"]}
-      />
-    );
-  });
+  // const teamListMarkup = teamDataArray.map((teamMember, key) => {
+  //   return (
+  //     <TeamRosterItem
+  //       key={key}
+  //       name={teamMember.Name}
+  //       role={teamMember["Job Title"]}
+  //       image={teamMember["Profile Picture"]}
+  //     />
+  //   );
+  // });
 
   return (
     <main>
       <BigHeader />
       <SectionLayout3Reversed />
       <SectionPraxisteam />
-      <SectionTeamRoster teamListSlot={teamListMarkup} />
+      <SectionTeamRoster_W />
+      {/* <SectionTeamRoster teamListSlot={teamListMarkup} /> */}
       <SectionFullImage />
     </main>
   );
