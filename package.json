@@ -10,6 +10,7 @@
     "serve": "next build && next start"
   },
   "dependencies": {
+    "@sanity/vision": "^3.21.1",
     "@webflow/webflow-cli": "^1.6.4",
     "client-only": "^0.0.1",
     "cookies-next": "^4.1.0",
