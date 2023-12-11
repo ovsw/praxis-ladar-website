@@ -1,5 +1,6 @@
 import { defineConfig } from "sanity";
 import { deskTool } from "sanity/desk";
+import { visionTool } from "@sanity/vision";
 import schemas from "./sanity/schemas";
 
 const projectId = process.env.NEXT_PUBLIC_SANITY_STUDIO_PROJECT_ID || "";
@@ -14,7 +15,7 @@ const config = defineConfig({
   title,
   apiVersion,
   basePath,
-  plugins: [deskTool()],
+  plugins: [deskTool(), visionTool()],
   schema: { types: schemas },
 });
 
