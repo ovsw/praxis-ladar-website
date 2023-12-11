@@ -18,8 +18,8 @@ export async function getStaffMembers() {
       order,
       name,
       jobtitle,
-      "image": image.asset->url
-      wfImage
+      "image": image.asset->url,
+      wfImage,
     }`
   );
 }
@@ -40,7 +40,7 @@ export async function getService() {
       description,
       "image": image.asset->url,
       wfImage,
-      content
+      content,
     }`
   );
 }
