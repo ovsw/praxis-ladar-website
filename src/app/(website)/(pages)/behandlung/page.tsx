@@ -1,6 +1,6 @@
 import React from "react";
 import { SectionBehandlung, BehandlungItemMobile } from "@/devlink";
-import servicesArray from "@/app/(website)/data/services";
+import servicesArray from "@/app/(website)/_data/services";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {

@@ -1,6 +1,6 @@
 import { SectionFullImage, SectionKontakt } from "@/devlink";
 import React from "react";
-import ButtonRuntimeProps from "../../components/ButtonRuntimeProps";
+import ButtonRuntimeProps from "../../_components/ButtonRuntimeProps";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {

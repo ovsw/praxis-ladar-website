@@ -3,7 +3,7 @@
 import { usePathname, useSearchParams } from "next/navigation";
 import { useEffect } from "react";
 import { getCookie } from "cookies-next";
-import { pageview } from "../lib/gtm";
+import { pageview } from "../_lib/gtm";
 import Script from "next/script";
 
 // declare datalayer type

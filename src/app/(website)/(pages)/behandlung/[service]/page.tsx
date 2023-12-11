@@ -1,8 +1,8 @@
 import { notFound } from "next/navigation";
-import { getServicePage } from "@/app/(website)/data/utils";
+import { getServicePage } from "@/app/(website)/_data/utils";
 import { SectionLongContent } from "@/devlink";
-import ButtonRuntimeProps from "@/app/(website)/components/ButtonRuntimeProps";
-import servicesData from "@/app/(website)/data/services";
+import ButtonRuntimeProps from "@/app/(website)/_components/ButtonRuntimeProps";
+import servicesData from "@/app/(website)/_data/services";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {

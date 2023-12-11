@@ -1,5 +1,5 @@
 import "@/devlink/global.css";
-import "@/app/(website)/assets/custom.css";
+import "@/app/(website)/_assets/custom.css";
 import type { Metadata } from "next";
 import Script from "next/script";
 import { Poppins } from "next/font/google";
@@ -13,16 +13,16 @@ import {
   Navbar,
   CookieConsentBanner,
 } from "@/devlink";
-// import GoogleAnalytics from "@/app/(website)/components/GoogleAnalytics";
+// import GoogleAnalytics from "@/app/(website)/_components/GoogleAnalytics";
 import {
   LinkRenderer,
   ImageRenderer,
-} from "@/app/(website)/components/renderers";
+} from "@/app/(website)/_components/renderers";
 
-import servicesArray from "@/app/(website)/data/services";
-import ButtonRuntimeProps from "@/app/(website)/components/ButtonRuntimeProps";
-import CookieConsent from "@/app/(website)/components/CookieConsent";
-import GtmComponent from "@/app/(website)/components/GtmComponent";
+import servicesArray from "@/app/(website)/_data/services";
+import ButtonRuntimeProps from "@/app/(website)/_components/ButtonRuntimeProps";
+import CookieConsent from "@/app/(website)/_components/CookieConsent";
+import GtmComponent from "@/app/(website)/_components/GtmComponent";
 
 const poppins = Poppins({ subsets: ["latin"], weight: ["400", "600", "700"] });
 

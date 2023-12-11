@@ -7,7 +7,7 @@ import {
   SectionTeamRoster,
   TeamRosterItem,
 } from "@/devlink";
-import teamDataArray from "@/app/(website)/data/team";
+import teamDataArray from "@/app/(website)/_data/team";
 
 import type { Metadata } from "next";
 

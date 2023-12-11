@@ -11,7 +11,7 @@ import {
   BehandlungItemMobile,
 } from "@/devlink";
 
-import servicesArray from "@/app/(website)/data/services";
+import servicesArray from "@/app/(website)/_data/services";
 
 export const metadata: Metadata = {
   title: "Home | Praxis Ladar",
