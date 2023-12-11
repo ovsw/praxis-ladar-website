@@ -12247,6 +12247,36 @@ figcaption {
   }
 }
 
+.table_cell {
+  padding: 1rem 0rem 1rem 1.2rem;
+}
+
+@media screen and (max-width: 991px) {
+  .table_cell {
+    padding-left: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .table_cell {
+    font-size: 0.8rem;
+  }
+}
+
+.table_cell.first {
+  padding-left: 0rem;
+}
+
+.table_row {
+  border-bottom: 1px solid var(--theme--bg-brand);
+}
+
+@media screen and (max-width: 991px) {
+  .table_header {
+    font-weight: 300;
+  }
+}
+
 
  #w-node-f250a8c2-4623-3422-2031-e6565be0598e-5be05956 {
   grid-row-start: span 2;
