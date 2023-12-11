@@ -74,7 +74,10 @@ export function SectionKontakt({
                 <br />
                 {"Unsere Sprechzeiten:"}
               </_Builtin.Paragraph>
-              <_Builtin.HtmlEmbed value="%3Ctable%20class%3D%22table_component%22%3E%3Cthead%20class%3D%22table_head%22%3E%3Ctr%20class%3D%22table_row%22%3E%3Cth%20class%3D%22table_header%22%3E%3C%2Fth%3E%3Cth%20class%3D%22table_header%22%3E%3Cspan%20class%3D%22u-text-semibold%22%3EMorgen%3C%2Fspan%3E%3C%2Fth%3E%3Cth%20class%3D%22table_header%22%3E%3Cspan%20class%3D%22u-text-semibold%22%3ENachmittag%3C%2Fspan%3E%3C%2Fth%3E%3C%2Ftr%3E%3C%2Fthead%3E%3Ctbody%20class%3D%22table_body%22%3E%3Ctr%20class%3D%22table_row%22%3E%3Ctd%20class%3D%22table_cell%20first%22%3E%3Cdiv%20class%3D%22text-weight-semibold%22%3EMo%3C%2Fdiv%3E%3C%2Ftd%3E%3Ctd%20class%3D%22table_cell%22%3E8.00%20-%2012.30%20Uhr%3C%2Ftd%3E%3Ctd%20class%3D%22table_cell%20last%22%3E14.30%20-%2018.00%20Uhr%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%20class%3D%22table_row%22%3E%3Ctd%20class%3D%22table_cell%20first%22%3E%3Cdiv%20class%3D%22text-weight-semibold%22%3EDi%3C%2Fdiv%3E%3C%2Ftd%3E%3Ctd%20class%3D%22table_cell%22%3E8.00%20-%2014.00%20Uhr%3C%2Ftd%3E%3Ctd%20class%3D%22table_cell%22%3E%E2%80%94%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%20class%3D%22table_row%22%3E%3Ctd%20class%3D%22table_cell%20first%22%3E%3Cdiv%20class%3D%22text-weight-semibold%22%3EMi%3C%2Fdiv%3E%3C%2Ftd%3E%3Ctd%20class%3D%22table_cell%22%3E8.00%20-%2012.30%20Uhr%3C%2Ftd%3E%3Ctd%20class%3D%22table_cell%22%3E14.00%20-%2018.00%20Uhr%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%20class%3D%22table_row%22%3E%3Ctd%20class%3D%22table_cell%20first%22%3E%3Cdiv%20class%3D%22text-weight-semibold%22%3EDo%3C%2Fdiv%3E%3C%2Ftd%3E%3Ctd%20class%3D%22table_cell%22%3E8.00%20-%2012.30%20Uhr%3C%2Ftd%3E%3Ctd%20class%3D%22table_cell%22%3E14.00%20-%2018.00%20Uhr%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%20class%3D%22table_row%22%3E%3Ctd%20class%3D%22table_cell%20first%22%3E%3Cdiv%20class%3D%22text-weight-semibold%22%3EFr%3C%2Fdiv%3E%3C%2Ftd%3E%3Ctd%20class%3D%22table_cell%22%3E8.00%20-%2013.00%20Uhr%3C%2Ftd%3E%3Ctd%20class%3D%22table_cell%22%3E%E2%80%94%3C%2Ftd%3E%3C%2Ftr%3E%3C%2Ftbody%3E%3C%2Ftable%3E" />
+              <_Builtin.HtmlEmbed
+                className="full-width"
+                value="%3Ctable%20class%3D%22table_component%22%3E%3Cthead%20class%3D%22table_head%22%3E%3Ctr%20class%3D%22table_row%22%3E%3Cth%20class%3D%22table_header%22%3E%3C%2Fth%3E%3Cth%20class%3D%22table_header%22%3E%3Cspan%20class%3D%22u-text-semibold%22%3EMorgen%3C%2Fspan%3E%3C%2Fth%3E%3Cth%20class%3D%22table_header%22%3E%3Cspan%20class%3D%22u-text-semibold%22%3ENachmittag%3C%2Fspan%3E%3C%2Fth%3E%3C%2Ftr%3E%3C%2Fthead%3E%3Ctbody%20class%3D%22table_body%22%3E%3Ctr%20class%3D%22table_row%22%3E%3Ctd%20class%3D%22table_cell%20first%22%3E%3Cdiv%20class%3D%22text-weight-semibold%22%3EMo%3C%2Fdiv%3E%3C%2Ftd%3E%3Ctd%20class%3D%22table_cell%22%3E8.00%20-%2012.30%20Uhr%3C%2Ftd%3E%3Ctd%20class%3D%22table_cell%20last%22%3E14.30%20-%2018.00%20Uhr%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%20class%3D%22table_row%22%3E%3Ctd%20class%3D%22table_cell%20first%22%3E%3Cdiv%20class%3D%22text-weight-semibold%22%3EDi%3C%2Fdiv%3E%3C%2Ftd%3E%3Ctd%20class%3D%22table_cell%22%3E8.00%20-%2014.00%20Uhr%3C%2Ftd%3E%3Ctd%20class%3D%22table_cell%22%3E%E2%80%94%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%20class%3D%22table_row%22%3E%3Ctd%20class%3D%22table_cell%20first%22%3E%3Cdiv%20class%3D%22text-weight-semibold%22%3EMi%3C%2Fdiv%3E%3C%2Ftd%3E%3Ctd%20class%3D%22table_cell%22%3E8.00%20-%2012.30%20Uhr%3C%2Ftd%3E%3Ctd%20class%3D%22table_cell%22%3E14.00%20-%2018.00%20Uhr%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%20class%3D%22table_row%22%3E%3Ctd%20class%3D%22table_cell%20first%22%3E%3Cdiv%20class%3D%22text-weight-semibold%22%3EDo%3C%2Fdiv%3E%3C%2Ftd%3E%3Ctd%20class%3D%22table_cell%22%3E8.00%20-%2012.30%20Uhr%3C%2Ftd%3E%3Ctd%20class%3D%22table_cell%22%3E14.00%20-%2018.00%20Uhr%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%20class%3D%22table_row%22%3E%3Ctd%20class%3D%22table_cell%20first%22%3E%3Cdiv%20class%3D%22text-weight-semibold%22%3EFr%3C%2Fdiv%3E%3C%2Ftd%3E%3Ctd%20class%3D%22table_cell%22%3E8.00%20-%2013.00%20Uhr%3C%2Ftd%3E%3Ctd%20class%3D%22table_cell%22%3E%E2%80%94%3C%2Ftd%3E%3C%2Ftr%3E%3C%2Ftbody%3E%3C%2Ftable%3E"
+              />
             </_Builtin.Block>
             <_Builtin.Block
               className="margin-top margin-medium hidden"
@@ -97,6 +100,7 @@ export function SectionKontakt({
             >
               <_Builtin.Block className="inner-contact-line" tag="div" />
             </_Builtin.Block>
+            <_Builtin.Block className="spacer-xsmall" tag="div" />
             <_Builtin.Block className="contact-info-container" tag="div">
               <_Builtin.Block className="mail-wrapper" tag="div">
                 <_Builtin.Link
@@ -125,7 +129,7 @@ export function SectionKontakt({
                   {"Fax. 07441-51124"}
                 </_Builtin.Block>
               </_Builtin.Block>
-              <_Builtin.Block className="spacer-xsmall" tag="div" />
+              <_Builtin.Block className="spacer-small" tag="div" />
               <_Builtin.Grid className="footer3_social-list" tag="div">
                 <_Builtin.Link
                   className="footer3_social-link is-dark"

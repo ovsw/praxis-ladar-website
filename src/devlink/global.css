@@ -12251,6 +12251,17 @@ figcaption {
   padding: 1rem 0rem 1rem 1.2rem;
 }
 
+@media screen and (min-width: 1440px) {
+
+}
+
+@media screen and (min-width: 1280px) {
+  .table_cell {
+    padding-right: 2.6rem;
+    padding-left: 2.6rem;
+  }
+}
+
 @media screen and (max-width: 991px) {
   .table_cell {
     padding-left: 1.1rem;
@@ -12264,16 +12275,36 @@ figcaption {
 }
 
 .table_cell.first {
-  padding-left: 0rem;
+  min-width: 4rem;
+  padding-left: 1rem;
+}
+
+@media screen and (max-width: 479px) {
+  .table_cell.first {
+    min-width: 1.5rem;
+    padding-left: 0rem;
+  }
 }
 
 .table_row {
   border-bottom: 1px solid var(--theme--bg-brand);
 }
 
+.table_header {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 0px;
+}
+
 @media screen and (max-width: 991px) {
   .table_header {
     font-weight: 300;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .full-width {
+    width: 100%;
   }
 }
 
