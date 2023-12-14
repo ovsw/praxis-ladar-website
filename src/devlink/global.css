@@ -2375,6 +2375,10 @@ label {
   font-weight: 500;
 }
 
+strong {
+  font-weight: bold;
+}
+
 blockquote {
   margin-bottom: 0rem;
   padding: 0.75rem 1.25rem;
@@ -9841,6 +9845,11 @@ figcaption {
   }
 }
 
+.service-hero.smaller-mobile {
+  max-width: 488.734375ch;
+  font-size: 2rem;
+}
+
 @media screen and (max-width: 479px) {
   .service-hero.smaller-mobile {
     font-size: 1.5rem;
@@ -9910,10 +9919,14 @@ figcaption {
 .rte-long h2 {
   margin-top: 2rem;
   margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 
 .rte-long h4 {
   margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 
 .rte-long p {
@@ -9923,6 +9936,8 @@ figcaption {
 .rte-long h3 {
   margin-top: 2rem;
   margin-bottom: 1rem;
+  font-size: 1.3rem;
+  font-weight: 400;
 }
 
 .rte-long ul {
@@ -9931,6 +9946,25 @@ figcaption {
 
 .rte-long ol {
   opacity: 0.8;
+}
+
+.rte-long h1 {
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.rte-long h5 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.rte-long h6 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.rte-long strong {
+  font-weight: 600;
 }
 
 .price-table_row {
@@ -12249,10 +12283,6 @@ figcaption {
 
 .table_cell {
   padding: 1rem 0rem 1rem 1.2rem;
-}
-
-@media screen and (min-width: 1440px) {
-
 }
 
 @media screen and (min-width: 1280px) {
