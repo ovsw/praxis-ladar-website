@@ -14,10 +14,10 @@ import {
   CookieConsentBanner,
 } from "@/devlink";
 // import GoogleAnalytics from "@/app/(website)/_components/GoogleAnalytics";
-import {
-  LinkRenderer,
-  ImageRenderer,
-} from "@/app/(website)/_components/renderers";
+// import {
+//   LinkRenderer,
+//   ImageRenderer,
+// } from "@/app/(website)/_components/renderers";
 
 import servicesArray from "@/app/(website)/_data/services";
 import ButtonRuntimeProps from "@/app/(website)/_components/ButtonRuntimeProps";
