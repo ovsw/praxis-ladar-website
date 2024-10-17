@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import * as _Builtin from "./_Builtin";
 
@@ -16,7 +17,7 @@ export function SectionFullImage({ as: _Component = _Builtin.Section }) {
             width="auto"
             height="auto"
             alt="die Zahnmedizinische Mitarbeiter des Praxis Ladar-Teams"
-            src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549b3567190493455f008a6_3L9A3020%20(1).jpg"
+            src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549b3567190493455f008a6_3L9A3020%20(1).jpg"
           />
         </_Builtin.Block>
       </_Builtin.Block>

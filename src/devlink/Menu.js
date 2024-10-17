@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import * as _Builtin from "./_Builtin";
 import * as _interactions from "./interactions";
@@ -55,6 +56,7 @@ export function Menu({
           <_Builtin.Link
             className="navbar-logo-container"
             button={false}
+            block="inline"
             options={logoLink}
           >
             <_Builtin.Block className="navbar-logo-text" tag="div">
@@ -80,7 +82,12 @@ export function Menu({
         </_Builtin.Block>
       </_Builtin.Block>
       <_Builtin.Block className="menu-links-container" tag="div">
-        <_Builtin.Link className="menu-link" button={false} options={homeLink}>
+        <_Builtin.Link
+          className="menu-link"
+          button={false}
+          block="inline"
+          options={homeLink}
+        >
           <_Builtin.Block className="menu-number-wrapper" tag="div">
             <_Builtin.Block className="menu-number-text" tag="div">
               {"01"}
@@ -98,13 +105,14 @@ export function Menu({
               width="auto"
               height="auto"
               alt=""
-              src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549b2ef41f8a92cdb1b8970_DSC03902.JPG.jpg"
+              src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549b2ef41f8a92cdb1b8970_DSC03902.JPG.jpg"
             />
           </_Builtin.Block>
         </_Builtin.Link>
         <_Builtin.Link
           className="menu-link"
           button={false}
+          block="inline"
           options={ambienteLink}
         >
           <_Builtin.Block className="menu-number-wrapper" tag="div">
@@ -124,7 +132,7 @@ export function Menu({
               width="auto"
               height="auto"
               alt=""
-              src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549b2ef41f8a92cdb1b8951_DSC03835.JPG.webp"
+              src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549b2ef41f8a92cdb1b8951_DSC03835.JPG.webp"
             />
           </_Builtin.Block>
         </_Builtin.Link>
@@ -132,6 +140,7 @@ export function Menu({
           className="menu-link"
           data-w-id="26c375eb-323e-4426-fbae-ad28d9471526"
           button={false}
+          block="inline"
           options={behandlungLink}
         >
           <_Builtin.Block className="menu-number-wrapper" tag="div">
@@ -151,7 +160,7 @@ export function Menu({
               width="auto"
               height="auto"
               alt=""
-              src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549b2ef41f8a92cdb1b896c_DSC03955.webp"
+              src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549b2ef41f8a92cdb1b896c_DSC03955.webp"
             />
           </_Builtin.Block>
         </_Builtin.Link>
@@ -159,6 +168,7 @@ export function Menu({
           className="menu-link"
           data-w-id="26c375eb-323e-4426-fbae-ad28d947152f"
           button={false}
+          block="inline"
           options={uberUnsLink}
         >
           <_Builtin.Block className="menu-number-wrapper custom" tag="div">
@@ -178,7 +188,7 @@ export function Menu({
               width="auto"
               height="auto"
               alt="das gesamte Zahnarztteam der Praxis Ladar"
-              src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549b2ef41f8a92cdb1b8958_3L9A3045.webp"
+              src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549b2ef41f8a92cdb1b8958_3L9A3045.webp"
             />
           </_Builtin.Block>
         </_Builtin.Link>
@@ -186,6 +196,7 @@ export function Menu({
           className="menu-link"
           data-w-id="26c375eb-323e-4426-fbae-ad28d9471538"
           button={false}
+          block="inline"
           options={teamLink}
         >
           <_Builtin.Block className="menu-number-wrapper" tag="div">
@@ -205,7 +216,7 @@ export function Menu({
               width="auto"
               height="auto"
               alt=""
-              src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549b2ef41f8a92cdb1b8962_3L9A3315.webp"
+              src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549b2ef41f8a92cdb1b8962_3L9A3315.webp"
             />
           </_Builtin.Block>
         </_Builtin.Link>
@@ -213,6 +224,7 @@ export function Menu({
           className="menu-link"
           data-w-id="26c375eb-323e-4426-fbae-ad28d9471541"
           button={false}
+          block="inline"
           options={jobsLink}
         >
           <_Builtin.Block className="menu-number-wrapper" tag="div">
@@ -232,7 +244,7 @@ export function Menu({
               width="auto"
               height="auto"
               alt=""
-              src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549b2ef41f8a92cdb1b8967_3L9A3327.webp"
+              src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549b2ef41f8a92cdb1b8967_3L9A3327.webp"
             />
           </_Builtin.Block>
         </_Builtin.Link>
@@ -240,6 +252,7 @@ export function Menu({
           className="menu-link"
           data-w-id="26c375eb-323e-4426-fbae-ad28d947154a"
           button={false}
+          block="inline"
           options={kontaktLink}
         >
           <_Builtin.Block className="menu-number-wrapper" tag="div">
@@ -259,7 +272,7 @@ export function Menu({
               width="auto"
               height="auto"
               alt=""
-              src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549b2ef41f8a92cdb1b895d_Kontakt---DSC03973.webp"
+              src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549b2ef41f8a92cdb1b895d_Kontakt---DSC03973.webp"
             />
           </_Builtin.Block>
         </_Builtin.Link>
@@ -268,6 +281,7 @@ export function Menu({
         <_Builtin.Link
           className="menu-social"
           button={false}
+          block="inline"
           options={{
             href: "https://www.facebook.com",
             target: "_blank",
@@ -283,6 +297,7 @@ export function Menu({
         <_Builtin.Link
           className="menu-social"
           button={false}
+          block="inline"
           options={{
             href: "https://www.instagram.com",
             target: "_blank",
@@ -298,6 +313,7 @@ export function Menu({
         <_Builtin.Link
           className="menu-social"
           button={false}
+          block="inline"
           options={{
             href: "https://www.twitter.com",
             target: "_blank",

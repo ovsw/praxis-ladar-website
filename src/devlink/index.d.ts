@@ -21,6 +21,7 @@ export * from "./Cursor";
 export * from "./CustomFeature1";
 export * from "./CustomFeatureLeft";
 export * from "./CustomFeatureRight";
+export * from "./DevLinkProvider";
 export * from "./Footer";
 export * from "./FooterServiceLink";
 export * from "./FooterWfcms";

@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import * as _Builtin from "./_Builtin";
 import { CtaButton } from "./CtaButton";
@@ -91,6 +92,7 @@ export function Footer({
                     <_Builtin.Link
                       className="text-color-white"
                       button={false}
+                      block=""
                       options={{
                         href: "#",
                       }}
@@ -100,6 +102,7 @@ export function Footer({
                     <_Builtin.Link
                       className="text-color-white"
                       button={false}
+                      block=""
                       options={{
                         href: "#",
                       }}
@@ -110,6 +113,7 @@ export function Footer({
                     <_Builtin.Link
                       className="text-color-white"
                       button={false}
+                      block=""
                       options={{
                         href: "#",
                       }}
@@ -119,6 +123,7 @@ export function Footer({
                     <_Builtin.Link
                       className="text-color-white"
                       button={false}
+                      block=""
                       options={{
                         href: "#",
                       }}
@@ -129,6 +134,7 @@ export function Footer({
                     <_Builtin.Link
                       className="text-color-white"
                       button={false}
+                      block=""
                       options={{
                         href: "#",
                       }}
@@ -143,6 +149,7 @@ export function Footer({
                     <_Builtin.Link
                       className="footer3_social-link"
                       button={false}
+                      block="inline"
                       options={{
                         href: "https://www.facebook.com/p/Zahnarztpraxis-Ladar-Desiree-Emil-100057178940974/",
                         target: "_blank",
@@ -156,6 +163,7 @@ export function Footer({
                     <_Builtin.Link
                       className="footer3_social-link"
                       button={false}
+                      block="inline"
                       options={{
                         href: "https://www.facebook.com/p/Zahnarztpraxis-Ladar-Desiree-Emil-100057178940974/",
                         target: "_blank",
@@ -175,6 +183,7 @@ export function Footer({
                   <_Builtin.Link
                     className="footer3_link"
                     button={false}
+                    block=""
                     options={{
                       href: "/",
                     }}
@@ -184,6 +193,7 @@ export function Footer({
                   <_Builtin.Link
                     className="footer3_link"
                     button={false}
+                    block=""
                     options={{
                       href: "#",
                     }}
@@ -193,6 +203,7 @@ export function Footer({
                   <_Builtin.Link
                     className="footer3_link"
                     button={false}
+                    block=""
                     options={{
                       href: "/uber-uns/",
                     }}
@@ -202,6 +213,7 @@ export function Footer({
                   <_Builtin.Link
                     className="footer3_link"
                     button={false}
+                    block=""
                     options={{
                       href: "/ambiente/",
                     }}
@@ -211,6 +223,7 @@ export function Footer({
                   <_Builtin.Link
                     className="footer3_link"
                     button={false}
+                    block=""
                     options={{
                       href: "/team/",
                     }}
@@ -220,6 +233,7 @@ export function Footer({
                   <_Builtin.Link
                     className="footer3_link"
                     button={false}
+                    block=""
                     options={{
                       href: "/wir-suchen-dich/",
                     }}
@@ -229,6 +243,7 @@ export function Footer({
                   <_Builtin.Link
                     className="footer3_link"
                     button={false}
+                    block=""
                     options={{
                       href: "/impressum/",
                     }}
@@ -238,6 +253,7 @@ export function Footer({
                   <_Builtin.Link
                     className="footer3_link"
                     button={false}
+                    block=""
                     options={{
                       href: "/kontakt/",
                     }}
@@ -271,6 +287,7 @@ export function Footer({
                 <_Builtin.Link
                   className="text-color-white"
                   button={false}
+                  block=""
                   options={{
                     href: "#",
                     target: "_blank",
@@ -284,6 +301,7 @@ export function Footer({
                 <_Builtin.Link
                   className="footer3_legal-link"
                   button={false}
+                  block=""
                   options={{
                     href: "/impressum",
                   }}
@@ -293,6 +311,7 @@ export function Footer({
                 <_Builtin.Link
                   className="footer3_legal-link"
                   button={false}
+                  block=""
                   options={{
                     href: "/datenschutz",
                   }}

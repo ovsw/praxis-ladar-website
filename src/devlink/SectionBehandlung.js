@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import * as _Builtin from "./_Builtin";
 import * as _interactions from "./interactions";
@@ -116,6 +117,7 @@ export function SectionBehandlung({
                   className="animation-item-text link"
                   data-w-id="013f7e94-4b70-18d2-b906-f2ba4590e244"
                   button={false}
+                  block="inline"
                   options={{
                     href: "/behandlung/prophylaxe",
                   }}
@@ -137,7 +139,7 @@ export function SectionBehandlung({
                         width="auto"
                         height="auto"
                         alt="Arrow Right icon"
-                        src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549b3446e46215a12ab49d4_arrow_dark.svg"
+                        src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549b3446e46215a12ab49d4_arrow_dark.svg"
                       />
                       <_Builtin.Image
                         className="arrow-right translate-left hide-on-mobile"
@@ -145,7 +147,7 @@ export function SectionBehandlung({
                         width="auto"
                         height="auto"
                         alt="Arrow Right icon"
-                        src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549b3446e46215a12ab49d3_arrow_white.svg"
+                        src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549b3446e46215a12ab49d3_arrow_white.svg"
                       />
                     </_Builtin.Block>
                   </_Builtin.Block>
@@ -166,6 +168,7 @@ export function SectionBehandlung({
                   className="animation-item-text link"
                   data-w-id="013f7e94-4b70-18d2-b906-f2ba4590e252"
                   button={false}
+                  block="inline"
                   options={{
                     href: "/behandlung/asthetische-zahnheilkunde",
                   }}
@@ -187,7 +190,7 @@ export function SectionBehandlung({
                         width="auto"
                         height="auto"
                         alt="Arrow Right icon"
-                        src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549b3446e46215a12ab49d4_arrow_dark.svg"
+                        src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549b3446e46215a12ab49d4_arrow_dark.svg"
                       />
                       <_Builtin.Image
                         className="arrow-right translate-left hide-on-mobile"
@@ -195,7 +198,7 @@ export function SectionBehandlung({
                         width="auto"
                         height="auto"
                         alt="Arrow Right icon"
-                        src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549b3446e46215a12ab49d3_arrow_white.svg"
+                        src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549b3446e46215a12ab49d3_arrow_white.svg"
                       />
                     </_Builtin.Block>
                   </_Builtin.Block>
@@ -216,6 +219,7 @@ export function SectionBehandlung({
                   className="animation-item-text link"
                   data-w-id="013f7e94-4b70-18d2-b906-f2ba4590e260"
                   button={false}
+                  block="inline"
                   options={{
                     href: "/behandlung/parodontologie",
                   }}
@@ -237,7 +241,7 @@ export function SectionBehandlung({
                         width="auto"
                         height="auto"
                         alt="Arrow Right icon"
-                        src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549b3446e46215a12ab49d4_arrow_dark.svg"
+                        src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549b3446e46215a12ab49d4_arrow_dark.svg"
                       />
                       <_Builtin.Image
                         className="arrow-right translate-left hide-on-mobile"
@@ -245,7 +249,7 @@ export function SectionBehandlung({
                         width="auto"
                         height="auto"
                         alt="Arrow Right icon"
-                        src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549b3446e46215a12ab49d3_arrow_white.svg"
+                        src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549b3446e46215a12ab49d3_arrow_white.svg"
                       />
                     </_Builtin.Block>
                   </_Builtin.Block>
@@ -266,6 +270,7 @@ export function SectionBehandlung({
                   className="animation-item-text link"
                   data-w-id="013f7e94-4b70-18d2-b906-f2ba4590e26e"
                   button={false}
+                  block="inline"
                   options={{
                     href: "/behandlung/funktionsanalytische-massnahmen",
                   }}
@@ -287,7 +292,7 @@ export function SectionBehandlung({
                         width="auto"
                         height="auto"
                         alt="Arrow Right icon"
-                        src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549b3446e46215a12ab49d4_arrow_dark.svg"
+                        src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549b3446e46215a12ab49d4_arrow_dark.svg"
                       />
                       <_Builtin.Image
                         className="arrow-right translate-left hide-on-mobile"
@@ -295,7 +300,7 @@ export function SectionBehandlung({
                         width="auto"
                         height="auto"
                         alt="Arrow Right icon"
-                        src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549b3446e46215a12ab49d3_arrow_white.svg"
+                        src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549b3446e46215a12ab49d3_arrow_white.svg"
                       />
                     </_Builtin.Block>
                   </_Builtin.Block>
@@ -316,6 +321,7 @@ export function SectionBehandlung({
                   className="animation-item-text link"
                   data-w-id="013f7e94-4b70-18d2-b906-f2ba4590e27c"
                   button={false}
+                  block="inline"
                   options={{
                     href: "/behandlung/wurzelbehandlung-unter-mikroskop",
                   }}
@@ -339,7 +345,7 @@ export function SectionBehandlung({
                         width="auto"
                         height="auto"
                         alt="Arrow Right icon"
-                        src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549b3446e46215a12ab49d4_arrow_dark.svg"
+                        src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549b3446e46215a12ab49d4_arrow_dark.svg"
                       />
                       <_Builtin.Image
                         className="arrow-right translate-left hide-on-mobile"
@@ -347,7 +353,7 @@ export function SectionBehandlung({
                         width="auto"
                         height="auto"
                         alt="Arrow Right icon"
-                        src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549b3446e46215a12ab49d3_arrow_white.svg"
+                        src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549b3446e46215a12ab49d3_arrow_white.svg"
                       />
                     </_Builtin.Block>
                   </_Builtin.Block>
@@ -370,6 +376,7 @@ export function SectionBehandlung({
                   className="servicelink"
                   data-w-id="013f7e94-4b70-18d2-b906-f2ba4590e28d"
                   button={false}
+                  block="inline"
                   options={{
                     href: "/behandlung/bleaching",
                   }}
@@ -391,7 +398,7 @@ export function SectionBehandlung({
                         width="auto"
                         height="auto"
                         alt="Arrow Right icon"
-                        src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549b3446e46215a12ab49d4_arrow_dark.svg"
+                        src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549b3446e46215a12ab49d4_arrow_dark.svg"
                       />
                       <_Builtin.Image
                         className="arrow-right translate-left hide-on-mobile"
@@ -399,7 +406,7 @@ export function SectionBehandlung({
                         width="auto"
                         height="auto"
                         alt="Arrow Right icon"
-                        src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549b3446e46215a12ab49d3_arrow_white.svg"
+                        src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549b3446e46215a12ab49d3_arrow_white.svg"
                       />
                     </_Builtin.Block>
                   </_Builtin.Block>
@@ -420,6 +427,7 @@ export function SectionBehandlung({
                   className="animation-item-text link"
                   data-w-id="013f7e94-4b70-18d2-b906-f2ba4590e29b"
                   button={false}
+                  block="inline"
                   options={{
                     href: "/behandlung/implantologie",
                   }}
@@ -441,7 +449,7 @@ export function SectionBehandlung({
                         width="auto"
                         height="auto"
                         alt="Arrow Right icon"
-                        src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549b3446e46215a12ab49d4_arrow_dark.svg"
+                        src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549b3446e46215a12ab49d4_arrow_dark.svg"
                       />
                       <_Builtin.Image
                         className="arrow-right translate-left hide-on-mobile"
@@ -449,7 +457,7 @@ export function SectionBehandlung({
                         width="auto"
                         height="auto"
                         alt="Arrow Right icon"
-                        src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549b3446e46215a12ab49d3_arrow_white.svg"
+                        src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549b3446e46215a12ab49d3_arrow_white.svg"
                       />
                     </_Builtin.Block>
                   </_Builtin.Block>
@@ -470,6 +478,7 @@ export function SectionBehandlung({
                   className="animation-item-text link"
                   data-w-id="013f7e94-4b70-18d2-b906-f2ba4590e2a9"
                   button={false}
+                  block="inline"
                   options={{
                     href: "/behandlung/zahnersatzversorgung",
                   }}
@@ -491,7 +500,7 @@ export function SectionBehandlung({
                         width="auto"
                         height="auto"
                         alt="Arrow Right icon"
-                        src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549b3446e46215a12ab49d4_arrow_dark.svg"
+                        src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549b3446e46215a12ab49d4_arrow_dark.svg"
                       />
                       <_Builtin.Image
                         className="arrow-right translate-left hide-on-mobile"
@@ -499,7 +508,7 @@ export function SectionBehandlung({
                         width="auto"
                         height="auto"
                         alt="Arrow Right icon"
-                        src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549b3446e46215a12ab49d3_arrow_white.svg"
+                        src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549b3446e46215a12ab49d3_arrow_white.svg"
                       />
                     </_Builtin.Block>
                   </_Builtin.Block>
@@ -520,6 +529,7 @@ export function SectionBehandlung({
                   className="animation-item-text link"
                   data-w-id="013f7e94-4b70-18d2-b906-f2ba4590e2b7"
                   button={false}
+                  block="inline"
                   options={{
                     href: "/behandlung/kinderzahnheilkunde",
                   }}
@@ -541,7 +551,7 @@ export function SectionBehandlung({
                         width="auto"
                         height="auto"
                         alt="Arrow Right icon"
-                        src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549b3446e46215a12ab49d4_arrow_dark.svg"
+                        src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549b3446e46215a12ab49d4_arrow_dark.svg"
                       />
                       <_Builtin.Image
                         className="arrow-right translate-left hide-on-mobile"
@@ -549,7 +559,7 @@ export function SectionBehandlung({
                         width="auto"
                         height="auto"
                         alt="Arrow Right icon"
-                        src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549b3446e46215a12ab49d3_arrow_white.svg"
+                        src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549b3446e46215a12ab49d3_arrow_white.svg"
                       />
                     </_Builtin.Block>
                   </_Builtin.Block>
@@ -570,6 +580,7 @@ export function SectionBehandlung({
                   className="animation-item-text link"
                   data-w-id="013f7e94-4b70-18d2-b906-f2ba4590e2c5"
                   button={false}
+                  block="inline"
                   options={{
                     href: "/behandlung/inraoral-scanner",
                   }}
@@ -591,7 +602,7 @@ export function SectionBehandlung({
                         width="auto"
                         height="auto"
                         alt="Arrow Right icon"
-                        src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549b3446e46215a12ab49d4_arrow_dark.svg"
+                        src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549b3446e46215a12ab49d4_arrow_dark.svg"
                       />
                       <_Builtin.Image
                         className="arrow-right translate-left hide-on-mobile"
@@ -599,7 +610,7 @@ export function SectionBehandlung({
                         width="auto"
                         height="auto"
                         alt="Arrow Right icon"
-                        src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549b3446e46215a12ab49d3_arrow_white.svg"
+                        src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549b3446e46215a12ab49d3_arrow_white.svg"
                       />
                     </_Builtin.Block>
                   </_Builtin.Block>

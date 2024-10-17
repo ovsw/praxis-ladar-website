@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import * as _Builtin from "./_Builtin";
 import * as _interactions from "./interactions";
@@ -137,7 +138,7 @@ export function SectionPraxisteam({
                   width="606.5"
                   bind="4303679d-2009-d753-b448-b156dd749e5b"
                   alt=""
-                  src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549ae4c3a68fc5998841310_Desiree-Ladar.jpg"
+                  src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549ae4c3a68fc5998841310_Desiree-Ladar.jpg"
                 />
               </_Builtin.Block>
               <_Builtin.Block
@@ -248,7 +249,7 @@ export function SectionPraxisteam({
                   width="auto"
                   bind="4303679d-2009-d753-b448-b156dd749e82"
                   alt=""
-                  src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549ae4b3a68fc5998841306_Emil-Ladar.jpg"
+                  src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549ae4b3a68fc5998841306_Emil-Ladar.jpg"
                 />
               </_Builtin.Block>
             </_Builtin.Block>
@@ -346,7 +347,7 @@ export function SectionPraxisteam({
                   height="auto"
                   bind="4303679d-2009-d753-b448-b156dd749e9a"
                   alt=""
-                  src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549ae4b3a68fc5998841301_Sandra-Duma.jpg"
+                  src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549ae4b3a68fc5998841301_Sandra-Duma.jpg"
                 />
               </_Builtin.Block>
             </_Builtin.Block>
@@ -438,7 +439,7 @@ export function SectionPraxisteam({
                   width="auto"
                   bind="4303679d-2009-d753-b448-b156dd749eb7"
                   alt=""
-                  src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549ae4b3a68fc599884130b_Tobias-Pfeifer.jpg"
+                  src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549ae4b3a68fc599884130b_Tobias-Pfeifer.jpg"
                 />
               </_Builtin.Block>
             </_Builtin.Block>

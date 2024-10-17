@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import * as _Builtin from "./_Builtin";
 
@@ -51,7 +52,7 @@ export function CustomFeatureLeft({ as: _Component = _Builtin.Section }) {
                   width="auto"
                   height="auto"
                   alt="Dr. Sandra Duma und Dr. Tobias Pfeifer"
-                  src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549b5f175a83233bd001c3f_3L9A3226.jpg"
+                  src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549b5f175a83233bd001c3f_3L9A3226.jpg"
                 />
               </_Builtin.Block>
             </_Builtin.Grid>

@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import * as _Builtin from "./_Builtin";
 import * as _interactions from "./interactions";
@@ -33,6 +34,7 @@ export function FsCookieConsent({
             <_Builtin.Link
               className="fs-cc-banner_text-link"
               button={false}
+              block=""
               options={{
                 href: "#",
               }}
@@ -46,6 +48,7 @@ export function FsCookieConsent({
               className="fs-cc-banner_text-link"
               button={false}
               fs-cc="open-preferences"
+              block=""
               options={{
                 href: "#",
               }}
@@ -56,6 +59,7 @@ export function FsCookieConsent({
               className="fs-cc-banner_button fs-cc-button-alt"
               button={true}
               fs-cc="deny"
+              block=""
               options={{
                 href: "#",
               }}
@@ -67,6 +71,7 @@ export function FsCookieConsent({
               className="fs-cc-banner_button"
               button={true}
               fs-cc="allow"
+              block=""
               options={{
                 href: "#",
               }}
@@ -150,6 +155,7 @@ export function FsCookieConsent({
                 className="fs-cc-prefs_button fs-cc-button-alt"
                 button={true}
                 fs-cc="deny"
+                block=""
                 options={{
                   href: "#",
                 }}
@@ -160,6 +166,7 @@ export function FsCookieConsent({
                 className="fs-cc-prefs_button"
                 button={true}
                 fs-cc="allow"
+                block=""
                 options={{
                   href: "#",
                 }}
@@ -300,6 +307,7 @@ export function FsCookieConsent({
                 className="fs-cc-prefs_button"
                 button={true}
                 fs-cc="submit"
+                block=""
                 options={{
                   href: "#",
                 }}

@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import * as _Builtin from "./_Builtin";
 import * as _interactions from "./interactions";
@@ -19,6 +20,7 @@ export function MainLogo({
     <_Component
       className="navbar-logo-container is-absolute"
       button={false}
+      block="inline"
       options={link}
     >
       <_Builtin.HtmlEmbed

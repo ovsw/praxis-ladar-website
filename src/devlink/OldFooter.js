@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import * as _Builtin from "./_Builtin";
 import * as _interactions from "./interactions";
@@ -28,7 +29,7 @@ export function OldFooter({ as: _Component = _Builtin.Section }) {
               width="auto"
               height="auto"
               alt=""
-              src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549b3654d837081160a66c2_3L9A3368-en-sm-clr.jpg"
+              src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549b3654d837081160a66c2_3L9A3368-en-sm-clr.jpg"
             />
             <_Builtin.Block
               className="div-block-3 footer-mobile-text custom"
@@ -54,6 +55,7 @@ export function OldFooter({ as: _Component = _Builtin.Section }) {
                   button={false}
                   sym-bind='{"link":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"dc7992bf-f933-623a-c912-78e633f8e3e8"}}}'
                   bind="0d820513-e4d5-6073-caa5-30a6350ed556"
+                  block="inline"
                   options={{
                     href: "#",
                   }}
@@ -115,6 +117,7 @@ export function OldFooter({ as: _Component = _Builtin.Section }) {
                   <_Builtin.Link
                     className="footer-link-wrapper solo"
                     button={false}
+                    block="inline"
                     options={{
                       href: "#",
                     }}
@@ -129,6 +132,7 @@ export function OldFooter({ as: _Component = _Builtin.Section }) {
                   <_Builtin.Link
                     className="footer-link-wrapper solo"
                     button={false}
+                    block="inline"
                     options={{
                       href: "#",
                     }}
@@ -143,6 +147,7 @@ export function OldFooter({ as: _Component = _Builtin.Section }) {
                   <_Builtin.Link
                     className="footer-link-wrapper solo"
                     button={false}
+                    block="inline"
                     options={{
                       href: "#",
                     }}
@@ -157,6 +162,7 @@ export function OldFooter({ as: _Component = _Builtin.Section }) {
                   <_Builtin.Link
                     className="footer-link-wrapper solo"
                     button={false}
+                    block="inline"
                     options={{
                       href: "#",
                     }}
@@ -171,6 +177,7 @@ export function OldFooter({ as: _Component = _Builtin.Section }) {
                   <_Builtin.Link
                     className="footer-link-wrapper solo"
                     button={false}
+                    block="inline"
                     options={{
                       href: "#",
                     }}
@@ -185,6 +192,7 @@ export function OldFooter({ as: _Component = _Builtin.Section }) {
                   <_Builtin.Link
                     className="footer-link-wrapper solo"
                     button={false}
+                    block="inline"
                     options={{
                       href: "#",
                     }}
@@ -199,6 +207,7 @@ export function OldFooter({ as: _Component = _Builtin.Section }) {
                   <_Builtin.Link
                     className="footer-link-wrapper solo"
                     button={false}
+                    block="inline"
                     options={{
                       href: "#",
                     }}
@@ -213,6 +222,7 @@ export function OldFooter({ as: _Component = _Builtin.Section }) {
                   <_Builtin.Link
                     className="footer-link-wrapper solo"
                     button={false}
+                    block="inline"
                     options={{
                       href: "#",
                     }}
@@ -244,6 +254,7 @@ export function OldFooter({ as: _Component = _Builtin.Section }) {
                 <_Builtin.Link
                   className="social"
                   button={false}
+                  block="inline"
                   options={{
                     href: "https://www.facebook.com/",
                     target: "_blank",
@@ -255,12 +266,13 @@ export function OldFooter({ as: _Component = _Builtin.Section }) {
                     width="auto"
                     height="auto"
                     alt="Facebook icon"
-                    src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549b3654d837081160a66bf_akar-icons_facebook-fill.svg"
+                    src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549b3654d837081160a66bf_akar-icons_facebook-fill.svg"
                   />
                 </_Builtin.Link>
                 <_Builtin.Link
                   className="social"
                   button={false}
+                  block="inline"
                   options={{
                     href: "https://www.instagram.com/",
                     target: "_blank",
@@ -272,12 +284,13 @@ export function OldFooter({ as: _Component = _Builtin.Section }) {
                     width="auto"
                     height="auto"
                     alt="Instagram icon"
-                    src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549b3654d837081160a66c1_akar-icons_instagram-fill.svg"
+                    src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549b3654d837081160a66c1_akar-icons_instagram-fill.svg"
                   />
                 </_Builtin.Link>
                 <_Builtin.Link
                   className="social"
                   button={false}
+                  block="inline"
                   options={{
                     href: "https://www.twitter.com/",
                     target: "_blank",
@@ -289,7 +302,7 @@ export function OldFooter({ as: _Component = _Builtin.Section }) {
                     width="auto"
                     height="auto"
                     alt="Twitter icon"
-                    src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549b3654d837081160a66c0_akar-icons_twitter-fill.svg"
+                    src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549b3654d837081160a66c0_akar-icons_twitter-fill.svg"
                   />
                 </_Builtin.Link>
               </_Builtin.Block>
@@ -304,6 +317,7 @@ export function OldFooter({ as: _Component = _Builtin.Section }) {
               <_Builtin.Link
                 className="white-link"
                 button={false}
+                block=""
                 options={{
                   href: "#",
                   target: "_blank",
@@ -318,6 +332,7 @@ export function OldFooter({ as: _Component = _Builtin.Section }) {
             <_Builtin.Link
               className="white-link"
               button={false}
+              block=""
               options={{
                 href: "#",
                 target: "_blank",

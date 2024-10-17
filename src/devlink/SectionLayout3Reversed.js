@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import * as _Builtin from "./_Builtin";
 import { ButtonPrimary } from "./ButtonPrimary";
@@ -23,7 +24,7 @@ export function SectionLayout3Reversed({ as: _Component = _Builtin.Block }) {
                   width="auto"
                   height="auto"
                   alt="die vier Zahnärzte des Praxis Ladar-Teams"
-                  src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549b3129dd89da74f9168ad_3L9A3368-en-sm-2.webp"
+                  src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549b3129dd89da74f9168ad_3L9A3368-en-sm-2.webp"
                 />
               </_Builtin.Block>
               <_Builtin.Block className="layout194-cust-1_content" tag="div">

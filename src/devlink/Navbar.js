@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import * as _Builtin from "./_Builtin";
 import * as _interactions from "./interactions";
@@ -27,6 +28,7 @@ export function Navbar({
         <_Builtin.Link
           className="navbar-logo-container is-empty"
           button={false}
+          block="inline"
           options={{
             href: "#",
           }}

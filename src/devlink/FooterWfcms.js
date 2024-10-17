@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import * as _Builtin from "./_Builtin";
 import { CtaButton } from "./CtaButton";
@@ -82,6 +83,7 @@ export function FooterWfcms({ as: _Component = _Builtin.Section }) {
                     <_Builtin.Link
                       className="text-color-white"
                       button={false}
+                      block=""
                       options={{
                         href: "#",
                       }}
@@ -91,6 +93,7 @@ export function FooterWfcms({ as: _Component = _Builtin.Section }) {
                     <_Builtin.Link
                       className="text-color-white"
                       button={false}
+                      block=""
                       options={{
                         href: "#",
                       }}
@@ -101,6 +104,7 @@ export function FooterWfcms({ as: _Component = _Builtin.Section }) {
                     <_Builtin.Link
                       className="text-color-white"
                       button={false}
+                      block=""
                       options={{
                         href: "#",
                       }}
@@ -110,6 +114,7 @@ export function FooterWfcms({ as: _Component = _Builtin.Section }) {
                     <_Builtin.Link
                       className="text-color-white"
                       button={false}
+                      block=""
                       options={{
                         href: "#",
                       }}
@@ -120,6 +125,7 @@ export function FooterWfcms({ as: _Component = _Builtin.Section }) {
                     <_Builtin.Link
                       className="text-color-white"
                       button={false}
+                      block=""
                       options={{
                         href: "#",
                       }}
@@ -133,6 +139,7 @@ export function FooterWfcms({ as: _Component = _Builtin.Section }) {
                   <_Builtin.Link
                     className="footer3_social-link"
                     button={false}
+                    block="inline"
                     options={{
                       href: "https://www.facebook.com/p/Zahnarztpraxis-Ladar-Desiree-Emil-100057178940974/",
                       target: "_blank",
@@ -146,6 +153,7 @@ export function FooterWfcms({ as: _Component = _Builtin.Section }) {
                   <_Builtin.Link
                     className="footer3_social-link"
                     button={false}
+                    block="inline"
                     options={{
                       href: "https://www.facebook.com/p/Zahnarztpraxis-Ladar-Desiree-Emil-100057178940974/",
                       target: "_blank",
@@ -164,6 +172,7 @@ export function FooterWfcms({ as: _Component = _Builtin.Section }) {
                   <_Builtin.Link
                     className="footer3_link"
                     button={false}
+                    block=""
                     options={{
                       href: "#",
                     }}
@@ -173,33 +182,7 @@ export function FooterWfcms({ as: _Component = _Builtin.Section }) {
                   <_Builtin.Link
                     className="footer3_link"
                     button={false}
-                    options={{
-                      href: "#",
-                    }}
-                  >
-                    {"Behandlung"}
-                  </_Builtin.Link>
-                  <_Builtin.Link
-                    className="footer3_link"
-                    button={false}
-                    options={{
-                      href: "#",
-                    }}
-                  >
-                    {"Ambiente"}
-                  </_Builtin.Link>
-                  <_Builtin.Link
-                    className="footer3_link"
-                    button={false}
-                    options={{
-                      href: "#",
-                    }}
-                  >
-                    {"Team"}
-                  </_Builtin.Link>
-                  <_Builtin.Link
-                    className="footer3_link"
-                    button={false}
+                    block=""
                     options={{
                       href: "#",
                     }}
@@ -209,6 +192,47 @@ export function FooterWfcms({ as: _Component = _Builtin.Section }) {
                   <_Builtin.Link
                     className="footer3_link"
                     button={false}
+                    block=""
+                    options={{
+                      href: "#",
+                    }}
+                  >
+                    {"Behandlung"}
+                  </_Builtin.Link>
+                  <_Builtin.Link
+                    className="footer3_link"
+                    button={false}
+                    block=""
+                    options={{
+                      href: "#",
+                    }}
+                  >
+                    {"Team"}
+                  </_Builtin.Link>
+                  <_Builtin.Link
+                    className="footer3_link"
+                    button={false}
+                    block=""
+                    options={{
+                      href: "#",
+                    }}
+                  >
+                    {"Ambiente"}
+                  </_Builtin.Link>
+                  <_Builtin.Link
+                    className="footer3_link"
+                    button={false}
+                    block=""
+                    options={{
+                      href: "#",
+                    }}
+                  >
+                    {"Team"}
+                  </_Builtin.Link>
+                  <_Builtin.Link
+                    className="footer3_link"
+                    button={false}
+                    block=""
                     options={{
                       href: "#",
                     }}
@@ -218,6 +242,7 @@ export function FooterWfcms({ as: _Component = _Builtin.Section }) {
                   <_Builtin.Link
                     className="footer3_link"
                     button={false}
+                    block=""
                     options={{
                       href: "#",
                     }}
@@ -237,6 +262,7 @@ export function FooterWfcms({ as: _Component = _Builtin.Section }) {
                 <_Builtin.Link
                   className="text-color-white"
                   button={false}
+                  block=""
                   options={{
                     href: "#",
                     target: "_blank",
@@ -250,6 +276,7 @@ export function FooterWfcms({ as: _Component = _Builtin.Section }) {
                 <_Builtin.Link
                   className="footer3_legal-link"
                   button={false}
+                  block=""
                   options={{
                     href: "/impressum",
                   }}

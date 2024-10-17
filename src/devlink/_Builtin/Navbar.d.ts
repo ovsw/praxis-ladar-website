@@ -42,49 +42,82 @@ type NavbarProps = {
     | React.ReactElement<NavbarChildrenType>[]
     | React.ReactElement<NavbarChildrenType>;
 };
-export declare function NavbarWrapper(props: NavbarProps): React.JSX.Element;
+export declare const NavbarWrapper: React.ForwardRefExoticComponent<
+  NavbarProps & React.RefAttributes<unknown>
+>;
 type NavbarContainerProps = TagProps & {
   toggleOpen: () => void;
   isOpen: boolean;
   children: React.ReactNode;
 };
-export declare function NavbarContainer({
-  children,
-  ...props
-}: NavbarContainerProps): React.JSX.Element;
+export declare const NavbarContainer: React.ForwardRefExoticComponent<
+  import("./Basic").ElementProps<keyof HTMLElementTagNameMap> & {
+    tag?: React.ElementType<any, keyof React.JSX.IntrinsicElements> | undefined;
+  } & {
+    children?: React.ReactNode;
+  } & {
+    toggleOpen: () => void;
+    isOpen: boolean;
+    children: React.ReactNode;
+  } & React.RefAttributes<unknown>
+>;
 type NavbarBrandProps = LinkProps;
-export declare function NavbarBrand({
-  className,
-  ...props
-}: NavbarBrandProps): React.JSX.Element;
+export declare const NavbarBrand: React.ForwardRefExoticComponent<
+  import("./Basic").ElementProps<"a"> & {
+    options?:
+      | {
+          href: string;
+          target?: "_self" | "_blank" | undefined;
+          preload?: "none" | "prerender" | "prefetch" | undefined;
+        }
+      | undefined;
+    className?: string | undefined;
+    button?: boolean | undefined;
+    block?: string | undefined;
+  } & {
+    children?: React.ReactNode;
+  } & React.RefAttributes<HTMLAnchorElement>
+>;
 type NavbarMenuProps = React.PropsWithChildren<{
   tag?: React.ElementType;
   className?: string;
   isOpen?: boolean;
 }>;
-export declare function NavbarMenu({
-  tag,
-  className,
-  ...props
-}: NavbarMenuProps): React.ReactElement<
-  any,
-  string | React.JSXElementConstructor<any>
+export declare const NavbarMenu: React.ForwardRefExoticComponent<
+  {
+    tag?: React.ElementType<any, keyof React.JSX.IntrinsicElements> | undefined;
+    className?: string | undefined;
+    isOpen?: boolean | undefined;
+  } & {
+    children?: React.ReactNode;
+  } & React.RefAttributes<unknown>
 >;
-type NavbarLinkProps = LinkProps;
-export declare function NavbarLink({
-  className,
-  ...props
-}: NavbarLinkProps): React.JSX.Element;
+export declare const NavbarLink: React.ForwardRefExoticComponent<
+  import("./Basic").ElementProps<"a"> & {
+    options?:
+      | {
+          href: string;
+          target?: "_self" | "_blank" | undefined;
+          preload?: "none" | "prerender" | "prefetch" | undefined;
+        }
+      | undefined;
+    className?: string | undefined;
+    button?: boolean | undefined;
+    block?: string | undefined;
+  } & {
+    children?: React.ReactNode;
+  } & React.RefAttributes<HTMLAnchorElement>
+>;
 type NavbarButtonProps = React.PropsWithChildren<{
   tag?: React.ElementType;
   className?: string;
 }>;
-export declare function NavbarButton({
-  tag,
-  className,
-  ...props
-}: NavbarButtonProps): React.ReactElement<
-  any,
-  string | React.JSXElementConstructor<any>
+export declare const NavbarButton: React.ForwardRefExoticComponent<
+  {
+    tag?: React.ElementType<any, keyof React.JSX.IntrinsicElements> | undefined;
+    className?: string | undefined;
+  } & {
+    children?: React.ReactNode;
+  } & React.RefAttributes<unknown>
 >;
 export {};

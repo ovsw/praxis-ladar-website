@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import * as _Builtin from "./_Builtin";
 import * as _interactions from "./interactions";
@@ -113,7 +114,7 @@ export function Statistics({ as: _Component = _Builtin.Section }) {
                       width="auto"
                       height="auto"
                       alt=""
-                      src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549b60b86ec4fa694013e7f_infinite_icon.svg"
+                      src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549b60b86ec4fa694013e7f_infinite_icon.svg"
                     />
                   </_Builtin.Block>
                   <_Builtin.Block

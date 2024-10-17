@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import * as _Builtin from "./_Builtin";
 import * as _interactions from "./interactions";
@@ -36,7 +37,7 @@ export function SectionKontakt({
                 width="auto"
                 height="auto"
                 alt=""
-                src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549b2ef41f8a92cdb1b895d_Kontakt---DSC03973.webp"
+                src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549b2ef41f8a92cdb1b895d_Kontakt---DSC03973.webp"
               />
             </_Builtin.Block>
             <_Builtin.Block
@@ -76,7 +77,7 @@ export function SectionKontakt({
               </_Builtin.Paragraph>
               <_Builtin.HtmlEmbed
                 className="full-width"
-                value="%3Ctable%20class%3D%22table_component%22%3E%3Cthead%20class%3D%22table_head%22%3E%3Ctr%20class%3D%22table_row%22%3E%3Cth%20class%3D%22table_header%22%3E%3C%2Fth%3E%3Cth%20class%3D%22table_header%22%3E%3Cspan%20class%3D%22u-text-semibold%22%3EMorgen%3C%2Fspan%3E%3C%2Fth%3E%3Cth%20class%3D%22table_header%22%3E%3Cspan%20class%3D%22u-text-semibold%22%3ENachmittag%3C%2Fspan%3E%3C%2Fth%3E%3C%2Ftr%3E%3C%2Fthead%3E%3Ctbody%20class%3D%22table_body%22%3E%3Ctr%20class%3D%22table_row%22%3E%3Ctd%20class%3D%22table_cell%20first%22%3E%3Cdiv%20class%3D%22text-weight-semibold%22%3EMo%3C%2Fdiv%3E%3C%2Ftd%3E%3Ctd%20class%3D%22table_cell%22%3E8.00%20-%2012.30%20Uhr%3C%2Ftd%3E%3Ctd%20class%3D%22table_cell%20last%22%3E14.30%20-%2018.00%20Uhr%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%20class%3D%22table_row%22%3E%3Ctd%20class%3D%22table_cell%20first%22%3E%3Cdiv%20class%3D%22text-weight-semibold%22%3EDi%3C%2Fdiv%3E%3C%2Ftd%3E%3Ctd%20class%3D%22table_cell%22%3E8.00%20-%2014.00%20Uhr%3C%2Ftd%3E%3Ctd%20class%3D%22table_cell%22%3E%E2%80%94%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%20class%3D%22table_row%22%3E%3Ctd%20class%3D%22table_cell%20first%22%3E%3Cdiv%20class%3D%22text-weight-semibold%22%3EMi%3C%2Fdiv%3E%3C%2Ftd%3E%3Ctd%20class%3D%22table_cell%22%3E8.00%20-%2012.30%20Uhr%3C%2Ftd%3E%3Ctd%20class%3D%22table_cell%22%3E14.00%20-%2018.00%20Uhr%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%20class%3D%22table_row%22%3E%3Ctd%20class%3D%22table_cell%20first%22%3E%3Cdiv%20class%3D%22text-weight-semibold%22%3EDo%3C%2Fdiv%3E%3C%2Ftd%3E%3Ctd%20class%3D%22table_cell%22%3E8.00%20-%2012.30%20Uhr%3C%2Ftd%3E%3Ctd%20class%3D%22table_cell%22%3E14.00%20-%2018.00%20Uhr%3C%2Ftd%3E%3C%2Ftr%3E%3Ctr%20class%3D%22table_row%22%3E%3Ctd%20class%3D%22table_cell%20first%22%3E%3Cdiv%20class%3D%22text-weight-semibold%22%3EFr%3C%2Fdiv%3E%3C%2Ftd%3E%3Ctd%20class%3D%22table_cell%22%3E8.00%20-%2013.00%20Uhr%3C%2Ftd%3E%3Ctd%20class%3D%22table_cell%22%3E%E2%80%94%3C%2Ftd%3E%3C%2Ftr%3E%3C%2Ftbody%3E%3C%2Ftable%3E"
+                value="%3Ctable%20class%3D%22table_component%22%3E%0A%20%20%20%3Cthead%20class%3D%22table_head%22%3E%0A%20%20%20%20%20%20%3Ctr%20class%3D%22table_row%22%3E%0A%20%20%20%20%20%20%20%20%20%3Cth%20class%3D%22table_header%22%3E%3C%2Fth%3E%0A%20%20%20%20%20%20%20%20%20%3Cth%20class%3D%22table_header%22%3E%3Cspan%20class%3D%22u-text-semibold%22%3EMorgen%3C%2Fspan%3E%3C%2Fth%3E%0A%20%20%20%20%20%20%20%20%20%3Cth%20class%3D%22table_header%22%3E%3Cspan%20class%3D%22u-text-semibold%22%3ENachmittag%3C%2Fspan%3E%3C%2Fth%3E%0A%20%20%20%20%20%20%3C%2Ftr%3E%0A%20%20%20%3C%2Fthead%3E%0A%20%20%20%3Ctbody%20class%3D%22table_body%22%3E%0A%20%20%20%20%20%20%3Ctr%20class%3D%22table_row%22%3E%0A%20%20%20%20%20%20%20%20%20%3Ctd%20class%3D%22table_cell%20first%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22text-weight-semibold%22%3EMo%3C%2Fdiv%3E%0A%20%20%20%20%20%20%20%20%20%3C%2Ftd%3E%0A%20%20%20%20%20%20%20%20%20%3Ctd%20class%3D%22table_cell%22%3E8.00%20-%2012.30%20Uhr%3C%2Ftd%3E%0A%20%20%20%20%20%20%20%20%20%3Ctd%20class%3D%22table_cell%20last%22%3E14.30%20-%2018.00%20Uhr%3C%2Ftd%3E%0A%20%20%20%20%20%20%3C%2Ftr%3E%0A%20%20%20%20%20%20%3Ctr%20class%3D%22table_row%22%3E%0A%20%20%20%20%20%20%20%20%20%3Ctd%20class%3D%22table_cell%20first%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22text-weight-semibold%22%3EDi%3C%2Fdiv%3E%0A%20%20%20%20%20%20%20%20%20%3C%2Ftd%3E%0A%20%20%20%20%20%20%20%20%20%3Ctd%20class%3D%22table_cell%22%3E8.00%20-%2012.30%20Uhr%3C%2Ftd%3E%0A%20%20%20%20%20%20%20%20%20%3Ctd%20class%3D%22table_cell%22%3E14.00%20%E2%80%94%2018.00%20Uhr%3C%2Ftd%3E%0A%20%20%20%20%20%20%3C%2Ftr%3E%0A%20%20%20%20%20%20%3Ctr%20class%3D%22table_row%22%3E%0A%20%20%20%20%20%20%20%20%20%3Ctd%20class%3D%22table_cell%20first%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22text-weight-semibold%22%3EMi%3C%2Fdiv%3E%0A%20%20%20%20%20%20%20%20%20%3C%2Ftd%3E%0A%20%20%20%20%20%20%20%20%20%3Ctd%20class%3D%22table_cell%22%3E8.00%20-%2012.30%20Uhr%3C%2Ftd%3E%0A%20%20%20%20%20%20%20%20%20%3Ctd%20class%3D%22table_cell%22%3E14.00%20-%2018.00%20Uhr%3C%2Ftd%3E%0A%20%20%20%20%20%20%3C%2Ftr%3E%0A%20%20%20%20%20%20%3Ctr%20class%3D%22table_row%22%3E%0A%20%20%20%20%20%20%20%20%20%3Ctd%20class%3D%22table_cell%20first%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22text-weight-semibold%22%3EDo%3C%2Fdiv%3E%0A%20%20%20%20%20%20%20%20%20%3C%2Ftd%3E%0A%20%20%20%20%20%20%20%20%20%3Ctd%20class%3D%22table_cell%22%3E8.00%20-%2014.00%20Uhr%3C%2Ftd%3E%0A%20%20%20%20%20%20%20%20%20%3Ctd%20class%3D%22table_cell%22%3E%E2%80%94%3C%2Ftd%3E%0A%20%20%20%20%20%20%3C%2Ftr%3E%0A%20%20%20%20%20%20%3Ctr%20class%3D%22table_row%22%3E%0A%20%20%20%20%20%20%20%20%20%3Ctd%20class%3D%22table_cell%20first%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22text-weight-semibold%22%3EFr%3C%2Fdiv%3E%0A%20%20%20%20%20%20%20%20%20%3C%2Ftd%3E%0A%20%20%20%20%20%20%20%20%20%3Ctd%20class%3D%22table_cell%22%3E8.00%20-%2013.00%20Uhr%3C%2Ftd%3E%0A%20%20%20%20%20%20%20%20%20%3Ctd%20class%3D%22table_cell%22%3E%E2%80%94%3C%2Ftd%3E%0A%20%20%20%20%20%20%3C%2Ftr%3E%0A%20%20%20%3C%2Ftbody%3E%0A%3C%2Ftable%3E"
               />
             </_Builtin.Block>
             <_Builtin.Block
@@ -106,6 +107,7 @@ export function SectionKontakt({
                 <_Builtin.Link
                   className="mail-link"
                   button={false}
+                  block=""
                   options={{
                     href: "mailto:praxis-ladar@t-online.de",
                   }}
@@ -117,6 +119,7 @@ export function SectionKontakt({
                 <_Builtin.Link
                   className="mail-link"
                   button={false}
+                  block=""
                   options={{
                     href: "mailto:praxis-ladar@t-online.de",
                   }}
@@ -134,6 +137,7 @@ export function SectionKontakt({
                 <_Builtin.Link
                   className="footer3_social-link is-dark"
                   button={false}
+                  block="inline"
                   options={{
                     href: "https://www.facebook.com/p/Zahnarztpraxis-Ladar-Desiree-Emil-100057178940974/",
                     target: "_blank",
@@ -147,6 +151,7 @@ export function SectionKontakt({
                 <_Builtin.Link
                   className="footer3_social-link is-dark"
                   button={false}
+                  block="inline"
                   options={{
                     href: "https://www.facebook.com/p/Zahnarztpraxis-Ladar-Desiree-Emil-100057178940974/",
                     target: "_blank",

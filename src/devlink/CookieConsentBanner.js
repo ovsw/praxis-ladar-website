@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import * as _Builtin from "./_Builtin";
 import * as _interactions from "./interactions";
@@ -27,6 +28,7 @@ export function CookieConsentBanner({
           <_Builtin.Link
             className="fs-cc-banner_text-link"
             button={false}
+            block=""
             options={link}
           >
             {"Datenschutzerklärung"}
@@ -39,6 +41,7 @@ export function CookieConsentBanner({
             className="fs-cc-banner_button fs-cc-button-alt"
             button={true}
             fs-cc="deny"
+            block=""
             options={{
               href: "#",
             }}
@@ -50,6 +53,7 @@ export function CookieConsentBanner({
             className="fs-cc-banner_button"
             button={true}
             fs-cc="allow"
+            block=""
             options={{
               href: "#",
             }}

@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import * as _Builtin from "./_Builtin";
 
@@ -45,7 +46,7 @@ export function SectionLayout3({ as: _Component = _Builtin.Block }) {
             height="auto"
             sym-bind='{"img":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"7387bf1d-036b-68a3-8d0c-5e6a062c6d44"}}}'
             alt="das gesamte Zahnarztteam der Praxis Ladar"
-            src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549b2ef41f8a92cdb1b8958_3L9A3045.webp"
+            src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549b2ef41f8a92cdb1b8958_3L9A3045.webp"
           />
         </_Builtin.Block>
       </_Builtin.Grid>

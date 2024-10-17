@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import * as _Builtin from "./_Builtin";
 
@@ -21,7 +22,7 @@ export function CustomFeatureRight({ as: _Component = _Builtin.Section }) {
                   width="auto"
                   height="auto"
                   alt="Dr. Desirée Ladar und Dr. Emil Ladar"
-                  src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549b5d4e7cf511712ebfef4_emil-desiree.jpg"
+                  src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549b5d4e7cf511712ebfef4_emil-desiree.jpg"
                 />
               </_Builtin.Block>
               <_Builtin.Block className="layout194_content" tag="div">

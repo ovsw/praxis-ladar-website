@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import * as _Builtin from "./_Builtin";
 import * as _interactions from "./interactions";
@@ -30,6 +31,7 @@ export function BehandlungItemMobile({
         <_Builtin.Link
           className="experience-wrapper"
           button={false}
+          block="inline"
           options={link}
         >
           <_Builtin.Block className="animation-item-text" tag="div">

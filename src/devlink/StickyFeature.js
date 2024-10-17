@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import * as _Builtin from "./_Builtin";
 
@@ -24,7 +25,7 @@ export function StickyFeature({ as: _Component = _Builtin.Section }) {
                   width="auto"
                   height="auto"
                   alt="ZWP 2019 Designpreis Zahnärztliche Gemeinschaftspraxis Ladar Dr. Desirée Ladar, Dr. Emil Ladar, Freudenstadt"
-                  src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549b625f6f2d8dee1e293d9_designpreis-2019.jpg"
+                  src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549b625f6f2d8dee1e293d9_designpreis-2019.jpg"
                 />
               </_Builtin.Block>
               <_Builtin.Block className="sticky-feature_text-wrapper" tag="div">
@@ -34,7 +35,7 @@ export function StickyFeature({ as: _Component = _Builtin.Section }) {
                   width="277.5"
                   height="auto"
                   alt="ZWP-Logo"
-                  src="https://uploads-ssl.webflow.com/65459ab6440c1238e7ede277/6549b626f6f2d8dee1e293df_zwp-logo.webp"
+                  src="https://cdn.prod.website-files.com/65459ab6440c1238e7ede277/6549b626f6f2d8dee1e293df_zwp-logo.webp"
                 />
                 <_Builtin.Block className="spacer-xsmall" tag="div" />
                 <_Builtin.Block className="sticky-feature_header" tag="div">

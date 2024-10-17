@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import * as _Builtin from "./_Builtin";
 import * as _interactions from "./interactions";
@@ -142,6 +143,7 @@ export function SectionHero({
           sym-bind='{"link":{"type":"Select","val":{"from":{"type":"Variable","val":"data"},"prop":"84454f3a-fc94-f8a2-3a36-bea31a2d1019"}}}'
           bind="33356b5b-ef8d-880f-e0fa-9a881add0d85"
           data-pointer-events="on"
+          block="inline"
           options={buttonLink}
         >
           <_Builtin.Block className="button_wrapper" tag="div">
